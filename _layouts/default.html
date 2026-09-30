@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main">
+        {%- for item in site.navigation %}
+        <a href="{{ item.page | replace: '.md', '.html' | relative_url }}"{% if page.path == item.page %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="container">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        {{ site.title }} &middot;
+        <a href="{{ site.parent.url }}">{{ site.parent.name }}</a> &middot;
+        <a href="{{ site.university.url }}">{{ site.university.name }}</a>
+      </p>
+      {%- if site.github_repo %}
+      <p><a href="{{ site.github_repo }}/edit/main/{{ page.path }}">Edit this page</a></p>
+      {%- endif %}
+    </div>
+  </footer>
+</body>
+</html>

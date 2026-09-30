@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------------
+# Site settings
+# ---------------------------------------------------------------------------
+title: Computational Linguistics & Psycholinguistics
+# Short summary used by search engines and link previews.
+description: >-
+  A research unit at the Center for Cognitive Science and Artificial
+  Intelligence, Tilburg University.
+lang: en
+
+parent:
+  name: Center for Cognitive Science and Artificial Intelligence
+  url: https://www.tilburguniversity.edu # TODO: link to the center's page
+university:
+  name: Tilburg University
+  url: https://www.tilburguniversity.edu
+
+# Menu: one entry per page, in the order shown in the header.
+navigation:
+  - title: Research
+    page: research.md
+  - title: People
+    page: people.md
+  - title: Publications
+    page: publications.md
+  - title: News
+    page: news.md
+  - title: Contact
+    page: contact.md
+
+# Where the site lives: repository github.com/tcsai/language-computation,
+# served at https://tcsai.github.io/language-computation/.
+# If the repository is renamed, change baseurl to match.
+url: "https://tcsai.github.io"
+baseurl: "/language-computation"
+github_repo: https://github.com/tcsai/language-computation
+
+# ---------------------------------------------------------------------------
+# Build settings (no need to edit). All plugins are supported by GitHub Pages.
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-optional-front-matter # Markdown files need no front matter
+  - jekyll-titles-from-headings  # page title = first heading
+  - jekyll-relative-links        # [People](people.md) links work
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+optional_front_matter:
+  remove_originals: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
