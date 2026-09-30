@@ -11,8 +11,7 @@ Every page is a plain Markdown file in the top folder:
 
 | Page | File |
 | --- | --- |
-| Home | `index.md` |
-| Research | `research.md` |
+| Home and research summary | `index.md` |
 | People | `people.md` |
 | Publications | `publications.md` |
 | News | `news.md` |
