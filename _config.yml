@@ -28,6 +28,27 @@ navigation:
   - title: Contact
     page: contact.md
 
+# Bluesky accounts whose posts appear on the News page.
+bluesky_feed:
+  - name: Grzegorz Chrupała
+    handle: grzegorz.chrupala.me
+  - name: Céline Angonin
+    handle: cangonin.bsky.social
+  - name: Chris Emmery
+    handle: cmry.bsky.social
+  - name: Libby Lepp
+    handle: lisalepp.bsky.social
+  - name: Chiara Manna
+    handle: chiaramanna.bsky.social
+  - name: Hosein Mohebbi
+    handle: hmohebbi.bsky.social
+  - name: Bruno Nicenboim
+    handle: bruno-nicenboim.fediscience.org.ap.brid.gy
+  - name: Gaofei Shen
+    handle: gaofeishen.com
+  - name: Dimitar Shterionov
+    handle: dimitarsh1.bsky.social
+
 # Where the site lives: repository github.com/tcsai/language-computation,
 # served at https://tcsai.github.io/language-computation/.
 # If the repository is renamed, change baseurl to match.

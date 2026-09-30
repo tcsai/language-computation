@@ -29,6 +29,12 @@ with the Markdown file name, e.g. `[People](people.md)`.
 `# Teaching`, and add it to the `navigation` list in `_config.yml` to show it
 in the menu.
 
+**News feed:** the News page shows the latest Bluesky posts by the accounts in
+the `bluesky_feed` list in `_config.yml`, fetched in the visitor's browser.
+Reposts, replies and posts quoting someone outside that list are left out. To
+add or remove a member, edit the list. Announcements written in `news.md` above
+the feed appear as normal text.
+
 Other settings:
 
 - Site title, description and menu: `_config.yml`

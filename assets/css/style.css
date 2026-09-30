@@ -59,6 +59,15 @@ h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
 main { padding-top: 2rem; padding-bottom: 3rem; }
 main li + li { margin-top: 0.5rem; }
 
+/* News feed */
+.feed { list-style: none; margin: 0; padding: 0; }
+.feed li { padding: 1rem 0; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; }
+.feed li + li { margin-top: 0; }
+.feed p { margin: 0.25rem 0; }
+.feed-meta { color: var(--muted); font-size: 0.9rem; }
+.feed-meta a { color: inherit; }
+.feed blockquote { margin: 0.5rem 0 0; padding-left: 0.75rem; border-left: 3px solid var(--border); }
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
