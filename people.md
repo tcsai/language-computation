@@ -20,7 +20,7 @@
 - [Céline Angonin](https://research.tilburguniversity.edu/en/persons/c%C3%A9line-angonin)
 - [Rastislav Hronský](https://research.tilburguniversity.edu/en/persons/ratislav-hronsk%C3%BD)
 - [Sasha Kenjeeva](https://research.tilburguniversity.edu/en/persons/alexandra-kenjeeva)
-- [Lisa Lepp](https://research.tilburguniversity.edu/en/persons/lisa-lepp)
+- [Libby Lepp](https://research.tilburguniversity.edu/en/persons/lisa-lepp)
 - [Thomas Lieber](https://research.tilburguniversity.edu/en/persons/thomas-lieber)
 - [Rosie Mai](https://research.tilburguniversity.edu/en/persons/rosie-mai)
 - [Chiara Manna](https://research.tilburguniversity.edu/en/persons/chiara-manna)
