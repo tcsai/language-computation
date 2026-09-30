@@ -1,8 +1,8 @@
 # Computational Linguistics & Psycholinguistics — website
 
 Source for the website of the Computational Linguistics & Psycholinguistics
-unit at the Center for Cognitive Science and Artificial Intelligence, Tilburg
-University. GitHub Pages turns the Markdown files into the website on every
+unit at the Research Center for Cognitive Science and Artificial Intelligence,
+Tilburg University. GitHub Pages turns the Markdown files into the website on every
 push; there is no build step to run.
 
 ## Editing content

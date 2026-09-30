@@ -1,6 +1,7 @@
 # Contact
 
-Email: <contact@example.org>
+For enquiries, contact the unit leader,
+[Grzegorz Chrupała](https://grzegorz.chrupala.me/).
 
 Tilburg University  
 Warandelaan 2  
@@ -9,6 +10,6 @@ The Netherlands
 
 ## Join us
 
-Placeholder: information for prospective PhD candidates, postdocs and
-students looking for a thesis supervisor. Open positions are announced on the
-[News](news.md) page.
+Open positions are announced on the [News](news.md) page. For other
+enquiries, including thesis supervision, contact any of our
+[people](people.md).

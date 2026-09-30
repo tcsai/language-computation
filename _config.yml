@@ -4,13 +4,14 @@
 title: Computational Linguistics & Psycholinguistics
 # Short summary used by search engines and link previews.
 description: >-
-  A research unit at the Center for Cognitive Science and Artificial
-  Intelligence, Tilburg University.
+  A research unit of the Research Center for Cognitive Science and Artificial
+  Intelligence at Tilburg University, building formal and computational models
+  of human language acquisition and use.
 lang: en
 
 parent:
-  name: Center for Cognitive Science and Artificial Intelligence
-  url: https://www.tilburguniversity.edu # TODO: link to the center's page
+  name: Research Center for Cognitive Science and Artificial Intelligence
+  url: https://www.tilburguniversity.edu/about/schools/tshd/departments/dca
 university:
   name: Tilburg University
   url: https://www.tilburguniversity.edu
