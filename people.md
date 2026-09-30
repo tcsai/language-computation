@@ -8,7 +8,6 @@
 - [Grzegorz Chrupała](https://grzegorz.chrupala.me/) (unit leader)
 - [Mirella De Sisto](https://research.tilburguniversity.edu/en/persons/mirella-de-sisto/)
 - [Chris Emmery](https://cmry.github.io/)
-- [Peter Hendrix](https://research.tilburguniversity.edu/en/persons/peter-hendrix/)
 - [Emmanuel Keuleers](https://research.tilburguniversity.edu/en/persons/emmanuel-keuleers/)
 - [Bruno Nicenboim](https://bruno.nicenboim.me/)
 - [Javad Pourmostafa Roshan Sharami](https://javad.pourmostafa.com/)
