@@ -1,11 +1,8 @@
 # Research
 
-Our research mainly relies on statistical machine learning and (hierarchical)
-Bayesian modelling, as well as advanced deep neural models for processing
-linguistic and visual data.
-
-A number of our projects aim to improve our understanding of human cognition by
-building formal and computational models of human language acquisition and use.
-Knowledge of how humans process language is in turn used to develop better
-applied systems and general-purpose tools and techniques for processing large
-collections of linguistic and extralinguistic data.
+We study language in people and in machines. We run experiments with human
+participants and build computational models of how people learn and process
+language. We analyse what neural models of text and speech learn, and how this
+compares with human language processing. We also develop and evaluate language
+technology, especially machine translation for spoken and sign languages, with
+a focus on fairness, inclusion and privacy.
