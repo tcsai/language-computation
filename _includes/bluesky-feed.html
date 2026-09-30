@@ -2,4 +2,4 @@
   <li class="feed-status">Loading posts…</li>
 </ul>
 <noscript><p>Turn on JavaScript to see recent posts.</p></noscript>
-<script src="{{ '/assets/js/feed.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/feed.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
