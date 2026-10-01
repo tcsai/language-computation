@@ -64,15 +64,16 @@ img { max-width: 100%; height: auto; }
 address { font-style: normal; }
 
 h1, h2, h3, .site-title { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-weight: 600; }
-h1, h2, h3 { line-height: 1.3; }
+h1, h2, h3 { line-height: 1.3; text-wrap: balance; }
 h1 { font-size: 2rem; margin: 0 0 1rem; color: var(--accent); }
 h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
+@media (max-width: 30rem) { h1 { font-size: 1.6rem; } }
 
 .skip-link { position: absolute; left: -999px; }
 .skip-link:focus { left: 1rem; top: 1rem; background: var(--bg); }
 
 /* Header */
-.site-header { border-bottom: 1px solid var(--border); padding-top: 1.25rem; padding-bottom: 1rem; }
+.site-header { border-bottom: 1px solid var(--border); padding-top: 1.25rem; padding-bottom: 1rem; text-wrap: balance; }
 .site-title { color: var(--accent); font-size: 1.2rem; text-decoration: none; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; margin-top: 0.5rem; }
 .site-nav a { color: var(--muted); text-decoration: none; }

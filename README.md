@@ -1,4 +1,4 @@
-# Computational Linguistics & Psycholinguistics — website
+# Tilburg Computational Linguistics & Psycholinguistics — website
 
 Source for the website of the Computational Linguistics & Psycholinguistics
 unit at the Research Center for Cognitive Science and Artificial Intelligence,
