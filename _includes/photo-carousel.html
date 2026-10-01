@@ -1,0 +1,18 @@
+<figure class="carousel" data-interval="30">
+  <div class="carousel-photos">
+    {%- for photo in site.data.photos %}
+    <img{% if forloop.first %} class="is-active"{% endif %} src="{{ photo.image | prepend: '/assets/img/' | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy">
+    {%- endfor %}
+  </div>
+  <figcaption class="carousel-captions">
+    {%- for photo in site.data.photos %}
+    <span{% if forloop.first %} class="is-active"{% endif %}>{{ photo.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+    {%- endfor %}
+  </figcaption>
+</figure>
+{%- if site.data.photos.size > 1 %}
+{%- comment %} Inlined so it picks the starting photo before any photo starts loading. {% endcomment %}
+<script>
+{% include carousel.js %}
+</script>
+{%- endif %}

@@ -82,10 +82,29 @@ h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
 main { padding-top: 2rem; padding-bottom: 3rem; }
 main li + li { margin-top: 0.5rem; }
 
-/* Home page photo */
-.banner { margin: 0; }
-.banner img { display: block; width: 100%; border-radius: 0.5rem; }
-.caption { margin: 0.4rem 0 1.5rem; color: var(--muted); font-size: 0.85rem; }
+/* Home page photos (_data/photos.yml), stacked so only the active one shows */
+.carousel { margin: 0 0 1.5rem; }
+.carousel-photos { position: relative; display: grid; border-radius: 0.5rem; overflow: hidden; background: var(--border); }
+.carousel-photos img { display: none; grid-area: 1 / 1; width: 100%; aspect-ratio: 1600 / 727; object-fit: cover; }
+.carousel-photos img.is-active, .carousel-photos img.is-leaving { display: block; }
+.carousel-photos img.is-active { z-index: 1; }
+.carousel-captions { display: grid; margin-top: 0.4rem; color: var(--muted); font-size: 0.85rem; }
+.carousel-captions > span { grid-area: 1 / 1; visibility: hidden; }
+.carousel-captions > span.is-active { visibility: visible; }
+.carousel .is-entering { animation: carousel-fade 1s ease; }
+@keyframes carousel-fade { from { opacity: 0; } }
+
+.carousel-controls { position: absolute; right: 0.5rem; bottom: 0.5rem; z-index: 2; display: flex; padding: 0 0.25rem; border-radius: 1rem; background: rgba(0, 0, 0, 0.45); }
+.carousel-controls button { display: grid; place-items: center; width: 1.5rem; height: 1.5rem; padding: 0; border: 0; background: none; color: #fff; cursor: pointer; }
+.carousel-dot::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: rgba(255, 255, 255, 0.5); }
+.carousel-dot[aria-current="true"]::before, .carousel-dot:hover::before { background: #fff; }
+.carousel-toggle svg { width: 0.85rem; height: 0.85rem; fill: currentColor; stroke: currentColor; stroke-width: 2.5; stroke-linejoin: round; }
+.carousel-controls button:focus-visible { outline: 2px solid #fff; outline-offset: -2px; border-radius: 50%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel .is-entering { animation: none; }
+  .carousel-photos img.is-leaving { display: none; }
+}
 
 /* News feed, laid out like a Bluesky timeline */
 .feed {

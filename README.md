@@ -28,6 +28,12 @@ with the Markdown file name, e.g. `[People](people.md)`.
 `# Teaching`, and add it to the `navigation` list in `_config.yml` to show it
 in the menu.
 
+**Home page photos:** the photo at the top of the home page is picked at
+random from the list in `_data/photos.yml` and changes every 30 seconds. To
+add a photo, crop it to 1600 × 727 pixels, put it in `assets/img/`, and add an
+entry to the list with its file name, a short description for screen readers
+and the caption.
+
 **News feed:** the News page shows the latest Bluesky posts by the accounts in
 the `bluesky_feed` list in `_config.yml`, fetched in the visitor's browser.
 Reposts, replies and posts quoting someone outside that list are left out. To

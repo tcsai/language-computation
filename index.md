@@ -1,11 +1,6 @@
 # Computational Linguistics & Psycholinguistics
 
-![Audience and speakers at a workshop in a seminar room at MindLabs, Tilburg](assets/img/workshop.jpg)
-{: .banner}
-
-Workshop on evaluation and interpretability of spoken language systems,
-MindLabs Tilburg, May 2026.
-{: .caption}
+{% include photo-carousel.html %}
 
 We are a research unit of the
 [Research Center for Cognitive Science and Artificial Intelligence](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca)

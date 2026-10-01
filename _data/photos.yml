@@ -1,0 +1,48 @@
+# Photos shown at the top of the home page. One is picked at random when the
+# page opens, and the next one appears every 30 seconds.
+#
+# To add a photo, crop it to 1600 × 727 pixels (the shape of workshop.jpg),
+# put it in assets/img/, and add an entry below:
+#   image:   the file name in assets/img/
+#   alt:     what the photo shows, read out by screen readers
+#   caption: the text under the photo; Markdown links work here
+
+# Source: https://bsky.app/profile/grzegorz.chrupala.me/post/3mleej5nebs2w
+- image: workshop.jpg
+  alt: Audience and speakers at a workshop in a seminar room at MindLabs, Tilburg
+  caption: >-
+    Workshop on evaluation and interpretability of spoken language systems,
+    MindLabs Tilburg, May 2026.
+
+# Source: https://bsky.app/profile/eamt2026.bsky.social/post/3modayqo3n222
+- image: eamt-2026-lunch.jpg
+  alt: Conference attendees eating and talking at tables in the MindLabs atrium, seen from above
+  caption: >-
+    Lunch at EAMT 2026, the conference of the European Association for Machine
+    Translation, MindLabs Tilburg, June 2026.
+
+# Source: https://bsky.app/profile/grzegorz.chrupala.me/post/3lwmmiuqmps26
+- image: interspeech-2025-tutorial.jpg
+  alt: >-
+    Eight presenters on a stage in front of a slide. Left to right: Charlotte
+    Pouw, Willem Zuidema, Marianne de Heer Kloots, Martijn Bentum, Hosein
+    Mohebbi, Grzegorz Chrupała, Gaofei Shen and Tom Lentz.
+  caption: >-
+    The team behind the tutorial on interpretability techniques for speech
+    models, Interspeech 2025, Rotterdam, August 2025.
+
+# Source: https://bsky.app/profile/eamt2026.bsky.social/post/3mokxblr7jk2y
+- image: eamt-2026-award.jpg
+  alt: >-
+    Two people on a stage, one holding a certificate, in front of a screen
+    showing the EAMT 2026 and Tilburg University logos
+  caption: Best Thesis Award at EAMT 2026, Tilburg, June 2026.
+
+# Source: https://bsky.app/profile/ecekt.bsky.social/post/3majietk4ns2n
+- image: cpl-2025.jpg
+  alt: >-
+    Audience seated in a wood-panelled hall with a chandelier, with a speaker
+    at a lectern on the left
+  caption: >-
+    Computational Psycholinguistics Meeting 2025, Utrecht, December 2025.
+    Photo: Ece Takmaz.
