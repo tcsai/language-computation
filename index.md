@@ -14,8 +14,9 @@ at Tilburg University.
 We study language in people and in machines using a variety of methodologies. We design and run experiments with human
 participants and build computational models of how people learn and process
 language. We analyse what neural models of text and speech learn, and how this
-compares with human language processing. We also develop language and evaluate technologies, especially translation and sign languages systems, with
-a focus on fairness, inclusion and privacy.
+compares with human language processing. We also develop and evaluate
+language technologies, especially translation and sign language systems, with a
+focus on fairness, inclusion and privacy.
 
 ## Selected recent papers
 
