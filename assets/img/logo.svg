@@ -1,64 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 0 134 130" role="img" aria-labelledby="logo-title">
-  <title id="logo-title">Baby robot with a speech balloon</title>
-  <style>
-    .ink { fill: #1d3f73; }
-    .line { stroke: #1d3f73; }
-    @media (prefers-color-scheme: dark) {
-      .ink { fill: #a9c1ee; }
-      .line { stroke: #a9c1ee; }
-    }
-  </style>
-  <defs>
-    <!-- Holes are cut out, so the logo is one colour on any background. -->
-    <mask id="balloon-holes">
-      <rect x="-10" y="-10" width="200" height="200" fill="#fff"/>
-      <circle cx="86" cy="24" r="3.4"/>
-      <circle cx="98" cy="24" r="3.4"/>
-      <circle cx="110" cy="24" r="3.4"/>
-    </mask>
-    <mask id="face-hole">
-      <rect x="-10" y="-10" width="200" height="200" fill="#fff"/>
-      <rect x="26" y="43" width="48" height="37" rx="16"/>
-    </mask>
-    <mask id="eye-highlights">
-      <rect x="-10" y="-10" width="200" height="200" fill="#fff"/>
-      <circle cx="37.5" cy="60" r="2.2"/>
-      <circle cx="59.5" cy="60" r="2.2"/>
-    </mask>
-    <!-- The legs sit in front of the torso, with a thin gap around them. -->
-    <mask id="torso-holes">
-      <rect x="-10" y="-10" width="200" height="200" fill="#fff"/>
-      <circle cx="50" cy="103" r="3.8"/>
-      <ellipse cx="26" cy="115" rx="12.5" ry="10.5" transform="rotate(-30 26 115)" stroke="#000" stroke-width="5"/>
-      <ellipse cx="74" cy="115" rx="12.5" ry="10.5" transform="rotate(30 74 115)" stroke="#000" stroke-width="5"/>
-    </mask>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Baby robot chatbot logo</title>
+  <desc id="desc">Editable vector logo of a cute seated baby robot with a speech bubble.</desc>
+  <g id="logo" fill="#173F78">
+    <!-- Antenna -->
+    <rect id="antenna-stem" x="303" y="58" width="14" height="54" rx="7"/>
+    <circle id="antenna-tip" cx="310" cy="50" r="18"/>
 
-  <!-- Speech balloon -->
-  <g transform="translate(10 -4)">
-    <path class="ink" mask="url(#balloon-holes)" d="M84 8h28a12 12 0 0 1 12 12v8a12 12 0 0 1-12 12H96l-14 10 3-10.4A12 12 0 0 1 72 28v-8A12 12 0 0 1 84 8z"/>
+    <!-- Head shell -->
+    <rect id="head" x="116" y="108" width="388" height="270" rx="112"/>
+    <!-- Face inset, knocked out using white fill for easy editing -->
+    <rect id="face" x="164" y="158" width="292" height="170" rx="78" fill="#FFFFFF"/>
+
+    <!-- Ears -->
+    <rect id="ear-left" x="89" y="186" width="40" height="110" rx="20"/>
+    <rect id="ear-right" x="491" y="186" width="40" height="110" rx="20"/>
+
+    <!-- Eyes -->
+    <circle id="eye-left" cx="240" cy="240" r="30"/>
+    <circle id="eye-right" cx="380" cy="240" r="30"/>
+    <circle id="eye-left-highlight" cx="230" cy="230" r="7" fill="#FFFFFF"/>
+    <circle id="eye-right-highlight" cx="370" cy="230" r="7" fill="#FFFFFF"/>
+
+    <!-- Smile -->
+    <path id="smile" d="M285 286c8 14 18 21 31 21s23-7 31-21" fill="none" stroke="#173F78" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Body -->
+    <path id="body" d="M214 394c25-14 60-22 96-22s71 8 96 22l-18 110c-5 31-32 54-64 54h-28c-32 0-59-23-64-54z"/>
+    <path id="bib" d="M259 404c14-8 31-12 51-12s37 4 51 12v64c0 24-20 44-44 44h-14c-24 0-44-20-44-44z" fill="#FFFFFF"/>
+    <circle id="chest-button" cx="310" cy="435" r="16"/>
+
+    <!-- Feet -->
+    <ellipse id="foot-left" cx="214" cy="506" rx="48" ry="64" transform="rotate(20 214 506)"/>
+    <ellipse id="foot-right" cx="406" cy="506" rx="48" ry="64" transform="rotate(-20 406 506)"/>
+
+    <!-- Speech bubble -->
+    <path id="bubble" d="M392 62h154c35 0 62 27 62 62v54c0 35-27 62-62 62H466l-48 38 12-38h-38c-35 0-62-27-62-62v-54c0-35 27-62 62-62z"/>
+    <circle cx="430" cy="151" r="12" fill="#FFFFFF"/>
+    <circle cx="482" cy="151" r="12" fill="#FFFFFF"/>
+    <circle cx="534" cy="151" r="12" fill="#FFFFFF"/>
   </g>
-
-  <!-- Antenna -->
-  <path class="line" d="M50 35V22" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-  <circle class="ink" cx="50" cy="18" r="5"/>
-
-  <!-- Ears -->
-  <rect class="ink" x="9" y="51" width="7" height="22" rx="3.5"/>
-  <rect class="ink" x="84" y="51" width="7" height="22" rx="3.5"/>
-
-  <!-- Head: large and round, like a baby's, with an open face -->
-  <rect class="ink" mask="url(#face-hole)" x="18" y="34" width="64" height="55" rx="24"/>
-
-  <!-- Eyes and smile -->
-  <g class="ink" mask="url(#eye-highlights)">
-    <circle cx="39" cy="62" r="6.5"/>
-    <circle cx="61" cy="62" r="6.5"/>
-  </g>
-  <path class="line" d="M45 71q5 4.5 10 0" stroke-width="2.6" stroke-linecap="round" fill="none"/>
-
-  <!-- Sitting body: torso with a belly button, legs in front -->
-  <rect class="ink" mask="url(#torso-holes)" x="31" y="92" width="38" height="32" rx="14"/>
-  <ellipse class="ink" cx="26" cy="115" rx="12.5" ry="10.5" transform="rotate(-30 26 115)"/>
-  <ellipse class="ink" cx="74" cy="115" rx="12.5" ry="10.5" transform="rotate(30 74 115)"/>
 </svg>
