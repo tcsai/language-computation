@@ -6,9 +6,8 @@ We are a research unit of the
 [Research Center for Cognitive Science and Artificial Intelligence](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca)
 at Tilburg University.
 
-We study language and communication in people, in other species and in
-machines, using a variety of methods. We design and run experiments with human
-participants and build computational models of how people learn and process
+We study language and communication in humans and other species, and in
+machines, using a variety of methods. We design and run experiments with participants and build computational models of how people learn and process
 language. We analyse what neural models of text and speech learn, and how this
 compares with human language processing. We also develop and evaluate
 language technologies, especially translation and sign language systems, with a
