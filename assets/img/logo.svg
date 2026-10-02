@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 4 118 88" role="img" aria-labelledby="logo-title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 4 118 108" role="img" aria-labelledby="logo-title">
   <title id="logo-title">Baby robot with a speech balloon</title>
   <style>
     .ink { fill: #1d3f73; }
@@ -11,13 +11,13 @@
   <defs>
     <!-- Holes are cut out, so the logo is one colour on any background. -->
     <mask id="balloon-holes">
-      <rect x="10" y="4" width="118" height="88" fill="#fff"/>
+      <rect x="10" y="4" width="118" height="108" fill="#fff"/>
       <circle cx="86" cy="24" r="3.2"/>
       <circle cx="98" cy="24" r="3.2"/>
       <circle cx="110" cy="24" r="3.2"/>
     </mask>
     <mask id="face-hole">
-      <rect x="10" y="4" width="118" height="88" fill="#fff"/>
+      <rect x="10" y="4" width="118" height="108" fill="#fff"/>
       <rect x="22" y="45" width="44" height="34" rx="15"/>
     </mask>
   </defs>
@@ -29,8 +29,12 @@
   <path class="line" d="M44 38V26" stroke-width="3.5" stroke-linecap="round" fill="none"/>
   <circle class="ink" cx="44" cy="22" r="5"/>
 
-  <!-- Head: large and round, like a baby's, with an open face and two eyes -->
+  <!-- Body -->
+  <rect class="ink" x="26" y="91" width="36" height="18" rx="8"/>
+
+  <!-- Head: large and round, like a baby's, with an open face -->
   <rect class="ink" mask="url(#face-hole)" x="14" y="36" width="60" height="52" rx="22"/>
   <circle class="ink" cx="35" cy="62" r="5.5"/>
   <circle class="ink" cx="53" cy="62" r="5.5"/>
+  <path class="line" d="M39 71q5 4.5 10 0" stroke-width="2.6" stroke-linecap="round" fill="none"/>
 </svg>
