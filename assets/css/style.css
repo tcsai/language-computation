@@ -74,7 +74,8 @@ h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
 
 /* Header */
 .site-header { border-bottom: 1px solid var(--border); padding-top: 1.25rem; padding-bottom: 1rem; text-wrap: balance; }
-.site-title { color: var(--accent); font-size: 1.2rem; text-decoration: none; }
+.site-title { display: inline-flex; align-items: center; gap: 0.6rem; color: var(--accent); font-size: 1.2rem; text-decoration: none; }
+.site-logo { flex: none; width: 3rem; height: auto; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; margin-top: 0.5rem; }
 .site-nav a { color: var(--muted); text-decoration: none; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); text-decoration: underline; }
