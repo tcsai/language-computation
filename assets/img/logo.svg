@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 120" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Baby robot with a speech balloon</title>
+  <style>
+    .ink { fill: #1d3f73; }
+    .line { stroke: #1d3f73; }
+    .face { fill: #eef3fb; }
+    .warm { fill: #f2a33a; }
+    .cheek { fill: #f5a3a3; }
+    .white { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #a9c1ee; }
+      .line { stroke: #a9c1ee; }
+      .face { fill: #1b2230; }
+      .white { fill: #111418; }
+    }
+  </style>
+
+  <!-- Speech balloon -->
+  <path class="warm" d="M84 8h28a12 12 0 0 1 12 12v8a12 12 0 0 1-12 12H96l-14 10 3-10.4A12 12 0 0 1 72 28v-8A12 12 0 0 1 84 8z"/>
+  <circle class="white" cx="86" cy="24" r="3.2"/>
+  <circle class="white" cx="98" cy="24" r="3.2"/>
+  <circle class="white" cx="110" cy="24" r="3.2"/>
+
+  <!-- Antenna -->
+  <path class="line" d="M44 38V26" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <circle class="warm" cx="44" cy="22" r="5"/>
+
+  <!-- Arms -->
+  <path class="line" d="M32 92l-9 7" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path class="line" d="M56 92l9-8" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- Body and feet -->
+  <rect class="ink" x="29" y="84" width="30" height="24" rx="9"/>
+  <circle class="warm" cx="44" cy="95" r="4"/>
+  <rect class="ink" x="31" y="104" width="11" height="8" rx="4"/>
+  <rect class="ink" x="46" y="104" width="11" height="8" rx="4"/>
+
+  <!-- Ears -->
+  <rect class="ink" x="9" y="54" width="9" height="16" rx="4"/>
+  <rect class="ink" x="70" y="54" width="9" height="16" rx="4"/>
+
+  <!-- Head: large and round, like a baby's -->
+  <rect class="ink" x="14" y="36" width="60" height="52" rx="22"/>
+  <rect class="face" x="21" y="44" width="46" height="36" rx="15"/>
+
+  <!-- Eyes, cheeks, smile -->
+  <circle class="ink" cx="35" cy="60" r="5.5"/>
+  <circle class="ink" cx="53" cy="60" r="5.5"/>
+  <circle class="face" cx="36.8" cy="58.2" r="1.8"/>
+  <circle class="face" cx="54.8" cy="58.2" r="1.8"/>
+  <circle class="cheek" cx="27.5" cy="68" r="3"/>
+  <circle class="cheek" cx="60.5" cy="68" r="3"/>
+  <path class="line" d="M39 69q5 4.5 10 0" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+</svg>
