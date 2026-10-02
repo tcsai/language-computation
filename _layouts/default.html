@@ -11,7 +11,8 @@
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <div class="container">
-      <a class="site-title" href="{{ '/' | relative_url }}"><img class="site-logo" src="{{ '/assets/img/logo.svg' | relative_url }}" alt="">{{ site.title }}</a>
+      <a class="site-logo" href="{{ '/' | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ '/assets/img/logo.svg' | relative_url }}" alt=""></a>
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main">
         {%- for item in site.navigation %}
         <a href="{{ item.page | replace: '.md', '.html' | replace: 'index.html', '/' | relative_url }}"{% if page.path == item.page %} aria-current="page"{% endif %}>{{ item.title }}</a>
