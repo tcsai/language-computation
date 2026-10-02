@@ -17,6 +17,8 @@ university:
 
 # Menu: one entry per page, in the order shown in the header.
 navigation:
+  - title: Research
+    page: index.md
   - title: People
     page: people.md
   - title: Publications

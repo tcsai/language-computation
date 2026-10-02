@@ -1,4 +1,4 @@
-# Tilburg Computational Linguistics & Psycholinguistics
+# Research
 
 {% include photo-carousel.html %}
 
