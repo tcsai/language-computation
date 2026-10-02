@@ -7,7 +7,7 @@ We are a research unit of the
 at Tilburg University.
 
 
-We study language and communication in people, other species, and machines using experiments, computational modelling, and analysis of neural models of text and speech. We also develop and evaluate language technologies, especially translation and sign language systems, with a focus on fairness, inclusion, and privacy.
+We study language and communication in biological and artificial systems using lab experiments, computational modelling, and analysis of neural models of text and speech. We also develop and evaluate language technologies, especially translation and sign language systems, with a focus on fairness, inclusion, and privacy.
 
 ## Selected recent papers
 
