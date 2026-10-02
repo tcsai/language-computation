@@ -45,6 +45,12 @@ talk (`Date`, `Speaker`, `Title`, `Abstract`) with dates written as
 `YYYY-MM-DD`. The page sorts them in the visitor's browser into upcoming and
 past talks, so a talk moves to *Past* by itself the day after it takes place.
 
+**Monthly update:** on the 1st of each month a scheduled Claude agent looks for
+new publications and news by members and opens a pull request for review.
+Nothing changes on the site until the pull request is merged. Its instructions,
+including the rules for each page and the sources it checks for each member,
+are in `CLAUDE.md`; update the table there when people join or leave.
+
 Other settings:
 
 - Site title, description and menu: `_config.yml`

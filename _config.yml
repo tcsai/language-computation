@@ -81,6 +81,7 @@ defaults:
 
 exclude:
   - README.md
+  - CLAUDE.md # instructions for the monthly update
   - schedule.md # shown on the Seminar page
   - Gemfile
   - Gemfile.lock
