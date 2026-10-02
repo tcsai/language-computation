@@ -15,7 +15,7 @@ Every page is a plain Markdown file in the top folder:
 | People | `people.md` |
 | Publications | `publications.md` |
 | News | `news.md` |
-| Contact | `contact.md` |
+| Seminar | `schedule.md` |
 
 The easiest way to edit is in the browser: open the file on GitHub (or click
 *Edit this page* at the bottom of any page on the site), click the pencil
@@ -39,6 +39,11 @@ the `bluesky_feed` list in `_config.yml`, fetched in the visitor's browser.
 Reposts, replies and posts quoting someone outside that list are left out. To
 add or remove a member, edit the list. Announcements written in `news.md` above
 the feed appear as normal text.
+
+**Seminar:** the Seminar page lists the talks in `schedule.md`, one block per
+talk (`Date`, `Speaker`, `Title`, `Abstract`) with dates written as
+`YYYY-MM-DD`. The page sorts them in the visitor's browser into upcoming and
+past talks, so a talk moves to *Past* by itself the day after it takes place.
 
 Other settings:
 

@@ -29,7 +29,7 @@
         <a href="{{ site.university.url }}">{{ site.university.name }}</a>
       </p>
       {%- if site.github_repo %}
-      <p><a href="{{ site.github_repo }}/edit/main/{{ page.path }}">Edit this page</a></p>
+      <p><a href="{{ site.github_repo }}/edit/main/{{ page.edit_path | default: page.path }}">Edit this page</a></p>
       {%- endif %}
     </div>
   </footer>

@@ -1,0 +1,4 @@
+{%- capture schedule %}{% include_relative schedule.md %}{% endcapture -%}
+<div id="seminar-talks" data-schedule="{{ schedule | jsonify | escape }}"></div>
+<noscript><p>Turn on JavaScript to see the talks, or read the <a href="{{ site.github_repo }}/blob/main/schedule.md">schedule</a>.</p></noscript>
+<script src="{{ '/assets/js/seminar.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
