@@ -17,5 +17,5 @@ We study language and communication in biological and artificial systems using l
 - Vanmassenhove (2026). [Losing our Tail, Again: (Un)Natural Selection & Multilingual LLMs](https://doi.org/10.18653/v1/2026.acl-long.532). *ACL 2026*.
 - Lepp et al. (2025). [Co-Creation for Sign Language Processing and Translation Technology](https://doi.org/10.3390/info16040290). *Information*.
 
-See all our [publications](publications.md), meet the [people](people.md), or
-read the latest [news](news.md).
+See all our [publications](publications.md), meet the [people](people.md), 
+read the latest [news](news.md), or follow us on [Bluesky](https://bsky.app/profile/tilburg-clp.bsky.social).
