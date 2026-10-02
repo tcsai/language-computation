@@ -14,8 +14,9 @@ version where there is one, otherwise to the preprint.
 - Muqing Li, Torsten Kai Jachmann, Noortje J. Venhuizen, Heiner Drenhaus and Matthew Crocker. [The Influence of Informativity on Syntactic Linearization in Reference Production](https://doi.org/10.2139/ssrn.6442001). *Preprint, SSRN*.
 - David G. Loughrey, Caro Brosens, Rachel A. Moiselle, Dimitar Shterionov, Vincent Vandeghinste, Andy Way and Lorraine Leeson. [Towards equitable artificial intelligence for deaf and hard of hearing (DHH) and disabled communities: ethical challenges and co-development](https://doi.org/10.1007/s43681-026-01230-z). *AI and Ethics*.
 - Chiara Manna, Hosein Mohebbi, Afra Alishahi, Frédéric Blain and Eva Vanmassenhove. [Gender Disambiguation in Machine Translation: Diagnostic Evaluation in Decoder-Only Architectures](https://doi.org/10.63317/4wphxianzxf6). *LREC 2026*.
+- Chiara Manna, Argentina Anna Rescigno and Eva Vanmassenhove. [Rethinking Gender Annotation for Bias Evaluation in Machine Translation: Can LLMs Improve Reliability?](https://aclanthology.org/2026.gitt-1.3/). *GITT 2026*.
 - Sara Møller Østergaard, Lenneke Doris Lichtenberg, Laura Boon and Bruno Nicenboim. [A Corpus of Joint EEG and Self-Paced Reading of Natural Dutch Texts](https://doi.org/10.63317/49tvxys2q4zc). *LREC 2026*.
-- Sara Møller Østergaard, Kenneth Enevoldsen, Afra Alishahi and Bruno Nicenboim. [Modeling semantic association in self-paced reading with language model embeddings](https://doi.org/10.63317/5hz52qgp2gdn). *LREC 2026*.
+- Sara Møller Østergaard, Kenneth Enevoldsen, Afra Alishahi and Bruno Nicenboim. [Modeling semantic association in self-paced reading with language model embeddings](https://doi.org/10.63317/5hz52qgp2gdn). *Workshop on Cognitive Modeling and Computational Linguistics at LREC 2026*.
 - Petr Plecháč, Artjoms Šeļa, Ben Nagy et al. [Unsupervised rhyme recognition across multiple languages: training data size, human agreement, and linguistic differences](https://doi.org/10.1093/llc/fqag098). *Digital Scholarship in the Humanities*.
 - Javad Pourmostafa Roshan Sharami. [Toward domain-specific machine translation and quality estimation systems](https://doi.org/10.26116/tshd.47714582). *PhD thesis, Tilburg University*.
 - Charlotte Pouw, Hosein Mohebbi, Afra Alishahi and Willem H. Zuidema. [In-Context Learning in Speech Language Models: Analyzing the Role of Acoustic Features, Linguistic Structure, and Induction Heads](https://arxiv.org/abs/2604.06356). *Preprint, arXiv*.
@@ -26,6 +27,7 @@ version where there is one, otherwise to the preprint.
 - Dimitar Shterionov, Noa van Helleman and Eva Vanmassenhove. [Diversity and Homogenisation in Generative AI Translation: A Comparative Study of English-Dutch Translation Across Domains](https://aclanthology.org/2026.eamt-1.6/). *EAMT 2026*.
 - Eva Vanmassenhove. [Losing our Tail, Again: (Un)Natural Selection & Multilingual LLMs](https://doi.org/10.18653/v1/2026.acl-long.532). *ACL 2026*.
 - Yixia Wang, Peter Hendrix and Emmanuel Keuleers. [Orthographic Neighbourhood Size Effects in Chinese Character Recognition: Small, Inconsistent, and Theoretically Ambiguous](https://doi.org/10.5334/joc.505). *Journal of Cognition*.
+- Jana M. Woerner, Céline Angonin, Andrew S. Gersick et al. [HyenaSET: Hyena Sound Event Transcripts and benchmark animal2vec performance for parsing animal communication](https://doi.org/10.64898/2026.06.14.732108). *Preprint, bioRxiv*.
 
 ## 2025
 
@@ -35,6 +37,7 @@ version where there is one, otherwise to the preprint.
 - Lisa Lepp, Dimitar Shterionov, Mirella De Sisto and Grzegorz Chrupała. [Co-Creation for Sign Language Processing and Translation Technology](https://doi.org/10.3390/info16040290). *Information*.
 - Lisa Lepp, Mirella De Sisto and Dimitar Shterionov. [Involvement of the Deaf Community in Large Scale Projects: Overview of SignON and EASIER Co-Creation Practices](https://doi.org/10.1145/3742886.3756714). *IVA 2025 Adjunct Proceedings*.
 - Chiara Manna, Afra Alishahi, Frédéric Blain and Eva Vanmassenhove. [Are We Paying Attention to Her? Investigating Gender Disambiguation and Attention in Machine Translation](https://aclanthology.org/2025.gitt-1.1/). *GITT 2025*.
+- Francesco Marolla, Marilù Miotto, Giovanni Cassani and Francesco Bailo. [Affording Fragmented Audiences: Multi-Platform Deliberation within the Five Star Movement](https://doi.org/10.1080/10584609.2025.2548288). *Political Communication*.
 - Arianna Muti, Chris Emmery, Debora Nozza, Alberto Barrón-Cedeño and Tommaso Caselli. [The “r” in “woman” stands for rights. Auditing LLMs in Uncovering Social Dynamics in Implicit Misogyny](https://doi.org/10.18653/v1/2025.findings-emnlp.292). *Findings of EMNLP 2025*.
 - Ben Nagy, Artjoms Šeļa, Mirella De Sisto and Petr Plecháč. [Metronome: tracing variation in poetic meters via local sequence alignment](https://doi.org/10.1017/chr.2025.1). *Computational Humanities Research*.
 - Bruno Nicenboim, Daniel J. Schad and Shravan Vasishth. [Introduction to Bayesian Data Analysis for Cognitive Science](https://doi.org/10.1201/9780429342646). *Chapman and Hall/CRC*.
