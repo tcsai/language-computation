@@ -3,7 +3,7 @@
 {% include photo-carousel.html %}
 
 We are a research unit of the
-[Research Center for Cognitive Science and Artificial Intelligence](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca)
+[Center for Cognitive Science and Artificial Intelligence](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca)
 at Tilburg University.
 
 
