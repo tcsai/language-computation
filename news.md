@@ -3,6 +3,11 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** Gaofei Shen
+  [demonstrated speech technology](https://bsky.app/profile/tilburg-clp.bsky.social/post/3mx2d3b3prc2k)
+  to visitors of the
+  [Weekend of Science](https://weekendvandewetenschap.nl/hotspots/tilburg-spoorzone/2026/)
+  at MindLabs on 4 October.
 - **September 2026.** [Beyond Decodability: Reconstructing Language Model
   Representations with an Encoding Probe](https://arxiv.org/abs/2605.00607) by
   Gaofei Shen, Martijn Bentum, Tom Lentz, Afra Alishahi and Grzegorz Chrupała
