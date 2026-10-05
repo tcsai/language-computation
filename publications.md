@@ -5,6 +5,7 @@ version where there is one, otherwise to the preprint.
 
 ## 2026
 
+- Céline Angonin, Grzegorz Chrupała and Dan Stowell. [Comparing Multi-Task Strategies for Multiple Dataset Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5). *BNAIC/BeNeLearn 2026*.
 - Giovanni Cassani and Matteo Colombo. [Thickness Is More Than Affective Valence: Evaluative Language Through the Lenses of Psycholinguistics](https://doi.org/10.1111/cogs.70180). *Cognitive Science*.
 - Grzegorz Chrupała. [The rise and evolution of a referential code in populations of bee-like agents](https://arxiv.org/abs/2608.25779). *Preprint, arXiv*.
 - Yves A. Duppen, Mirella De Sisto, Ifigeneia Mavridou, Phillip Brown, Lisa Lepp and Dimitar Shterionov. [Feature Analysis of MoCap Data for Optimised Sign Language Processing](https://doi.org/10.63317/4e3o6m3ntvt3). *Sign Language Workshop at LREC 2026*.
