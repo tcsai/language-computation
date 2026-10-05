@@ -6,8 +6,7 @@
 - **October 2026.** [Comparing Multi-Task Strategies for Multiple Dataset
   Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5) by
   Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
-  oral presentation at BNAIC/BeNeLearn 2026. The paper compares single-task and
-  multi-task models trained on several bioacoustics datasets at once.
+  oral presentation at BNAIC/BeNeLearn 2026.
 - **October 2026.** Gaofei Shen
   [demonstrated speech technology](https://bsky.app/profile/tilburg-clp.bsky.social/post/3mx2d3b3prc2k)
   to visitors of the
@@ -16,7 +15,7 @@
 - **September 2026.** [Beyond Decodability: Reconstructing Language Model
   Representations with an Encoding Probe](https://arxiv.org/abs/2605.00607) by
   Gaofei Shen, Martijn Bentum, Tom Lentz, Afra Alishahi and Grzegorz Chrupała
-  has been accepted to EMNLP 2026. 
+  has been accepted to EMNLP 2026.
 - **June 2026.** Tilburg hosted EAMT 2026, the 26th annual conference of the
   European Association for Machine Translation, from 15 to 18 June. Members of
   the unit were on the organising team and edited the
