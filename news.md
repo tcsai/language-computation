@@ -3,6 +3,11 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** [Comparing Multi-Task Strategies for Multiple Dataset
+  Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5) by
+  Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
+  oral presentation at BNAIC/BeNeLearn 2026. The paper compares single-task and
+  multi-task models trained on several bioacoustics datasets at once.
 - **October 2026.** Gaofei Shen
   [demonstrated speech technology](https://bsky.app/profile/tilburg-clp.bsky.social/post/3mx2d3b3prc2k)
   to visitors of the
