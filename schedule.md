@@ -28,8 +28,20 @@ cross-checks.
 
 Date: 2026-10-08
 Speaker: Hosein Mohebbi
-Title:
-Abstract:
+Title: Efficient and Interpretable Models of Spoken Language with Adaptive Context Compression
+Abstract: This talk explores adaptive compute for audio context compression. We
+introduce a method to progressively shorten the sequence of acoustic
+frames as they pass through successive model layers. By dynamically
+merging redundant temporal frames, our approach physically reduces the
+context length at inference time, yielding tangible latency
+improvements. A major focus of the talk will be the techniques used to
+guarantee strict train-inference consistency despite physically merging
+and removing these frames. I will share evaluations on OpenAI's Whisper
+model across ASR and Speech Translation tasks, showing that adaptive
+context compression consistently outperforms static baselines like
+LayerDrop and Distillation, maintaining or even improving original model
+performance, while eliminating 50–70% of candidate frames and yielding
+significant inference speedups.
 
 Date: 2026-10-29
 Speaker: Céline Angonin
