@@ -13,6 +13,7 @@ Pages (Jekyll, deployed from `main`). `README.md` explains the files.
 - Libby Lepp is listed as "Libby" on People but publishes as Lisa Lepp. In
   author lists, use names as printed on the paper.
 - Seminar talks are kept by hand in `schedule.md`. Don't edit it.
+- `seminar.ics` is generated from `schedule.md` by a GitHub Action. Don't edit it.
 
 ### Publications (`publications.md`)
 

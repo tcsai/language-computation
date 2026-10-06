@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tcsai.github.io//Seminar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Seminar | Tilburg Computational Linguistics & Psycholinguistic
+ s
+X-WR-TIMEZONE:Europe/Amsterdam
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20260917-fd976a49@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Seminar: Gaofei Shen – Representational Differences Explanations 
+ for spoken language models.
+DESCRIPTION:Representational similarity analysis tells us whether two space
+ s look alike. Neither describes the structure of the difference itself. In
+  this talk I present the work in progress from my research visit to the Un
+ iversity of Edinburgh on Representational Difference Explanations (RDX\; K
+ ondapaneni et al.\, 2025)\, a method from computer vision that clusters th
+ e stimuli which two models represent differently. We adapt RDX to speech a
+ nd apply it in layerwise comparisons between wav2vec2-base and the ASR-fin
+ e-tuned wav2vec2\, HuBERT-base\, an AudioSet-trained wav2vec2\, Whisper-sm
+ all\, and a random-weight wav2vec2 as control\, on the same TIMIT dataset.
+  Different model pairs produce different layerwise profiles in terms of ho
+ w the organization of their internal representations differs. Alongside a 
+ curated inventory of audio- and text-based features\, we also found that s
+ ome of these automatically discovered clusters do not correspond to any la
+ bel in that inventory. To address this\, we are attempting to use an LLM-a
+ ssisted method to help label the clusters with statistical cross-checks.\n
+ \nhttps://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:20261008-50a6fc78@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;TZID=Europe/Amsterdam:20261008T123000
+DTEND;TZID=Europe/Amsterdam:20261008T130000
+SUMMARY:Seminar: Hosein Mohebbi – Efficient and Interpretable Models of S
+ poken Language with Adaptive Context Compression
+LOCATION:D 152 A\, Tilburg University
+DESCRIPTION:This talk explores adaptive compute for audio context compressi
+ on. We introduce a method to progressively shorten the sequence of acousti
+ c frames as they pass through successive model layers. By dynamically merg
+ ing redundant temporal frames\, our approach physically reduces the contex
+ t length at inference time\, yielding tangible latency improvements. A maj
+ or focus of the talk will be the techniques used to guarantee strict train
+ -inference consistency despite physically merging and removing these frame
+ s. I will share evaluations on OpenAI's Whisper model across ASR and Speec
+ h Translation tasks\, showing that adaptive context compression consistent
+ ly outperforms static baselines like LayerDrop and Distillation\, maintain
+ ing or even improving original model performance\, while eliminating 50–
+ 70% of candidate frames and yielding significant inference speedups.\n\nht
+ tps://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:20261029-6e1acd6d@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;TZID=Europe/Amsterdam:20261029T123000
+DTEND;TZID=Europe/Amsterdam:20261029T130000
+SUMMARY:Seminar: Céline Angonin
+LOCATION:D 152 A\, Tilburg University
+DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:20261112-c350b275@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;TZID=Europe/Amsterdam:20261112T124500
+DTEND;TZID=Europe/Amsterdam:20261112T134500
+SUMMARY:Seminar: Sara Østergaard
+LOCATION:MKZ 221\, Tilburg University
+DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-f0b7be34@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;TZID=Europe/Amsterdam:20261126T123000
+DTEND;TZID=Europe/Amsterdam:20261126T130000
+SUMMARY:Seminar: Thomas Lieber – Piecewise additive methods
+LOCATION:D 152 A\, Tilburg University
+DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:20261210-2829a3e9@tcsai.github.io
+DTSTAMP:20261006T082901Z
+DTSTART;TZID=Europe/Amsterdam:20261210T123000
+DTEND;TZID=Europe/Amsterdam:20261210T130000
+SUMMARY:Seminar: Grzegorz Chrupała – The rise and evolution of a referen
+ tial code in populations of bee-like agents
+LOCATION:D 152 A\, Tilburg University
+DESCRIPTION:Communication typically relies on a shared code\, and any chang
+ e to it must be coordinated between senders and receivers to avoid a break
+ down of communication. The honeybee waggle dance illustrates this problem:
+  species with horizontal combs point directly at a food source\, while spe
+ cies with vertical combs cannot point directly and instead reference the d
+ ance to gravity\, decoded against the position of the sun. We model the ri
+ se of the first of these codes and its evolutionary transition to the seco
+ nd in populations of bee-like agents\, with selection acting at the level 
+ of colonies. In a horizontal-comb model\, we find that direct pointing evo
+ lves readily when food is moderately hard to find by random search alone\,
+  whether because sites are few and large or many and small. Communication 
+ fails to evolve when food is too sparse to spark dances or so abundant tha
+ t it is found without signaling. Adding an exogenous benefit for vertical 
+ combs\, we then find that the transition to the gravity-referenced code is
+  driven mainly by the magnitude of this benefit and by the mutation scale\
+ , with the coupling between sender and receiver mutations playing a furthe
+ r role when the mutation scale is low. Given a favorable confluence of the
+ se factors\, the transition proceeds reliably and without a breakdown of c
+ ommunication. Outside that confluence it remains possible\, though rarer\,
+  across a much wider range of settings.\n\nhttps://tcsai.github.io/languag
+ e-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
+END:VCALENDAR

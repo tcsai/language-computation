@@ -43,7 +43,10 @@ the feed appear as normal text.
 **Seminar:** the Seminar page lists the talks in `schedule.md`, one block per
 talk (`Date`, `Time`, `Room`, `Speaker`, `Title`, `Abstract`) with dates written as
 `YYYY-MM-DD`. The page sorts them in the visitor's browser into upcoming and
-past talks, so a talk moves to *Past* by itself the day after it takes place.
+past talks, so a talk moves to *Past* by itself the day after it takes place. A GitHub
+Action (`.github/workflows/seminar-calendar.yml`) turns `schedule.md` into
+`seminar.ics` on every change, so people can subscribe to the talks in their
+calendar; don't edit `seminar.ics` by hand. Times are Dutch local time.
 
 **Monthly update:** on the 1st of each month a scheduled Claude agent looks for
 new publications and news by members and opens a pull request for review.
