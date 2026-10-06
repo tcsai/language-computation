@@ -3,8 +3,9 @@
 Talks shown on the Seminar page. To add a talk, copy a block and fill it in.
 Write dates as YYYY-MM-DD. The order of the blocks does not matter: the page
 lists upcoming talks first and moves each talk to the past ones the day after
-it takes place. Title and Abstract can stay empty until known; an abstract can
-run over several lines, with a blank line between paragraphs.
+it takes place. Time (e.g. 12:30-13:00) and Room are optional. Title and
+Abstract can stay empty until known; an abstract can run over several lines,
+with a blank line between paragraphs.
 
 Date: 2026-09-17
 Speaker: Gaofei Shen
@@ -27,6 +28,8 @@ LLM-assisted method to help label the clusters with statistical
 cross-checks.
 
 Date: 2026-10-08
+Time: 12:30-13:00
+Room: D 152 A
 Speaker: Hosein Mohebbi
 Title: Efficient and Interpretable Models of Spoken Language with Adaptive Context Compression
 Abstract: This talk explores adaptive compute for audio context compression. We
@@ -44,21 +47,29 @@ performance, while eliminating 50–70% of candidate frames and yielding
 significant inference speedups.
 
 Date: 2026-10-29
+Time: 12:30-13:00
+Room: D 152 A
 Speaker: Céline Angonin
 Title:
 Abstract:
 
 Date: 2026-11-12
+Time: 12:45-13:45
+Room: MKZ 221
 Speaker: Sara Østergaard
 Title:
 Abstract:
 
 Date: 2026-11-26
+Time: 12:30-13:00
+Room: D 152 A
 Speaker: Thomas Lieber
 Title: Piecewise additive methods
 Abstract:
 
 Date: 2026-12-10
+Time: 12:30-13:00
+Room: D 152 A
 Speaker: Grzegorz Chrupała
 Title: The rise and evolution of a referential code in populations of bee-like agents
 Abstract:

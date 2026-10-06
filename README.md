@@ -41,7 +41,7 @@ add or remove a member, edit the list. Announcements written in `news.md` above
 the feed appear as normal text.
 
 **Seminar:** the Seminar page lists the talks in `schedule.md`, one block per
-talk (`Date`, `Speaker`, `Title`, `Abstract`) with dates written as
+talk (`Date`, `Time`, `Room`, `Speaker`, `Title`, `Abstract`) with dates written as
 `YYYY-MM-DD`. The page sorts them in the visitor's browser into upcoming and
 past talks, so a talk moves to *Past* by itself the day after it takes place.
 

@@ -5,7 +5,7 @@
   var box = document.getElementById("seminar-talks");
   if (!box) return;
 
-  var FIELD = /^(Date|Speaker|Title|Abstract):[ \t]*(.*)$/i;
+  var FIELD = /^(Date|Time|Room|Speaker|Title|Abstract):[ \t]*(.*)$/i;
   var DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var MONTHS = ["January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December"];
@@ -53,9 +53,10 @@
 
   function renderTalk(talk) {
     var d = talk.date, title = oneLine(talk.title), abstract = paragraphs(talk.abstract);
+    var when = [DAYS[d.getDay()] + " " + d.getDate() + " " + MONTHS[d.getMonth()] + " " + d.getFullYear(),
+      oneLine(talk.time).replace(/\s*-\s*/, "–"), oneLine(talk.room)].filter(Boolean).join(", ");
     return '<li class="talk">' +
-      '<p class="talk-date">' + DAYS[d.getDay()] + " " + d.getDate() + " " +
-        MONTHS[d.getMonth()] + " " + d.getFullYear() + "</p>" +
+      '<p class="talk-date">' + escapeHtml(when) + "</p>" +
       '<p class="talk-speaker">' + escapeHtml(oneLine(talk.speaker)) + "</p>" +
       (title ? '<p class="talk-title">' + escapeHtml(title) + "</p>"
              : '<p class="talk-title talk-tba">Title to be announced</p>') +
