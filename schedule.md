@@ -49,7 +49,7 @@ significant inference speedups.
 Date: 2026-10-29
 Time: 12:30-13:00
 Room: D 152 A
-Speaker: Céline Angonin
+Speaker: Bruno Nicenboim
 Title:
 Abstract:
 
