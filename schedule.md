@@ -51,7 +51,38 @@ Time: 12:30-13:30
 Room: D 152 A
 Speaker: Bruno Nicenboim
 Title: All models are wrong, and so is model comparison
-Abstract:
+Abstract: A central goal of cognitive science, and of any field that
+formalizes its theories, is to determine which theory best and most
+accurately explains a set of phenomena. Researchers often implement
+competing theories as computational models and use model comparison
+techniques to evaluate the merits of the models as proxies for the
+theories.
+
+Model comparison has important limitations when all candidate models are
+misspecified, a situation that is virtually guaranteed in real-world
+applications but is often downplayed or plainly ignored. I illustrate
+these problems with a simulation. I generated response times and choices
+from a known race process and fit three kinds of misspecified models to
+them: (1) models structurally similar to the "true" model but with wrong
+peripheral (or auxiliary) assumptions, (2) a model that assumes a
+qualitatively different mechanism, and (3) theory-agnostic statistical
+models. I then ranked the models with Bayes factors and cross-validation.
+The simulation shows that the rankings depended on which aspect of the
+data was modeled, which peripheral assumptions were implemented, and which
+comparison method was used. The best predictions did not always come from
+the model closest to the truth. In a real application, moreover, we would
+not know which situation we were in, whether we had all the relevant data,
+or how sensitive our comparison was to peripheral assumptions. The case
+study uses Bayesian cognitive models, but the problem affects any model
+comparison, whether it relies on Bayes factors, cross-validation,
+information criteria, or held-out benchmarks. All of these tools rank
+models according to statistical criteria that do not, by themselves,
+establish which theory is closer to the truth. Turning model rankings into
+claims about theories therefore requires arguments that go beyond
+statistics. I close with suggestions for using model comparison as a
+diagnostic tool: separating core from peripheral assumptions, choosing
+informative data and severe tests, and building shared benchmarks so that
+evidence accumulates across studies.
 
 Date: 2026-11-12
 Time: 12:45-13:45
