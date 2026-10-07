@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:20260917-fd976a49@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Seminar: Gaofei Shen – Representational Differences Explanations 
@@ -50,7 +50,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-50a6fc78@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;TZID=Europe/Amsterdam:20261008T123000
 DTEND;TZID=Europe/Amsterdam:20261008T133000
 SUMMARY:Seminar: Hosein Mohebbi – Efficient and Interpretable Models of S
@@ -73,17 +73,18 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261029-b2dbd4f2@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;TZID=Europe/Amsterdam:20261029T123000
 DTEND;TZID=Europe/Amsterdam:20261029T133000
-SUMMARY:Seminar: Bruno Nicenboim
+SUMMARY:Seminar: Bruno Nicenboim – All models are wrong\, and so is model
+  comparison
 LOCATION:D 152 A\, Tilburg University
 DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-c350b275@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;TZID=Europe/Amsterdam:20261112T124500
 DTEND;TZID=Europe/Amsterdam:20261112T134500
 SUMMARY:Seminar: Sara Østergaard
@@ -93,7 +94,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-f0b7be34@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;TZID=Europe/Amsterdam:20261126T123000
 DTEND;TZID=Europe/Amsterdam:20261126T133000
 SUMMARY:Seminar: Thomas Lieber – Piecewise additive methods
@@ -103,7 +104,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261210-2829a3e9@tcsai.github.io
-DTSTAMP:20261007T092009Z
+DTSTAMP:20261007T143656Z
 DTSTART;TZID=Europe/Amsterdam:20261210T123000
 DTEND;TZID=Europe/Amsterdam:20261210T133000
 SUMMARY:Seminar: Grzegorz Chrupała – The rise and evolution of a referen
