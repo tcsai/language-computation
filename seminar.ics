@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:20260917-fd976a49@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Seminar: Gaofei Shen – Representational Differences Explanations 
@@ -50,9 +50,9 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-50a6fc78@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;TZID=Europe/Amsterdam:20261008T123000
-DTEND;TZID=Europe/Amsterdam:20261008T130000
+DTEND;TZID=Europe/Amsterdam:20261008T133000
 SUMMARY:Seminar: Hosein Mohebbi – Efficient and Interpretable Models of S
  poken Language with Adaptive Context Compression
 LOCATION:D 152 A\, Tilburg University
@@ -73,9 +73,9 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261029-b2dbd4f2@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;TZID=Europe/Amsterdam:20261029T123000
-DTEND;TZID=Europe/Amsterdam:20261029T130000
+DTEND;TZID=Europe/Amsterdam:20261029T133000
 SUMMARY:Seminar: Bruno Nicenboim
 LOCATION:D 152 A\, Tilburg University
 DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
@@ -83,7 +83,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-c350b275@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;TZID=Europe/Amsterdam:20261112T124500
 DTEND;TZID=Europe/Amsterdam:20261112T134500
 SUMMARY:Seminar: Sara Østergaard
@@ -93,9 +93,9 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-f0b7be34@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;TZID=Europe/Amsterdam:20261126T123000
-DTEND;TZID=Europe/Amsterdam:20261126T130000
+DTEND;TZID=Europe/Amsterdam:20261126T133000
 SUMMARY:Seminar: Thomas Lieber – Piecewise additive methods
 LOCATION:D 152 A\, Tilburg University
 DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
@@ -103,9 +103,9 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261210-2829a3e9@tcsai.github.io
-DTSTAMP:20261006T120727Z
+DTSTAMP:20261007T092009Z
 DTSTART;TZID=Europe/Amsterdam:20261210T123000
-DTEND;TZID=Europe/Amsterdam:20261210T130000
+DTEND;TZID=Europe/Amsterdam:20261210T133000
 SUMMARY:Seminar: Grzegorz Chrupała – The rise and evolution of a referen
  tial code in populations of bee-like agents
 LOCATION:D 152 A\, Tilburg University
