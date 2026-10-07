@@ -50,7 +50,7 @@ Date: 2026-10-29
 Time: 12:30-13:30
 Room: D 152 A
 Speaker: Bruno Nicenboim
-Title:
+Title: All models are wrong, and so is model comparison
 Abstract:
 
 Date: 2026-11-12
