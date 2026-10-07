@@ -1,5 +1,9 @@
 {%- capture schedule %}{% include_relative schedule.md %}{% endcapture -%}
-<p class="talks-calendar">Seminar calendar: <a href="{{ site.url | replace: 'https://', 'webcal://' }}{{ site.baseurl }}/seminar.ics">subscribe</a> or <a href="{{ '/seminar.ics' | relative_url }}" download>download</a> (.ics)</p>
+{%- capture calendar_url %}{{ site.url }}{{ site.baseurl }}/seminar.ics{% endcapture %}
+<div class="talks-calendar">
+  <p>To follow the talks in your calendar app, add a calendar subscription with this address, or <a href="{{ '/seminar.ics' | relative_url }}" download>download</a> them once (.ics).</p>
+  <p><input class="calendar-url" type="text" value="{{ calendar_url }}" readonly aria-label="Calendar address"> <button type="button" class="calendar-copy" hidden>Copy address</button></p>
+</div>
 <div id="seminar-talks" data-schedule="{{ schedule | jsonify | escape }}"></div>
 <noscript><p>Turn on JavaScript to see the talks, or read the <a href="{{ site.github_repo }}/blob/main/schedule.md">schedule</a>.</p></noscript>
 <script src="{{ '/assets/js/seminar.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

@@ -2,6 +2,20 @@
 // past talks (most recent first). A talk counts as upcoming until the end of
 // its day, judged by the visitor's clock.
 (function () {
+  // Button that copies the calendar address; without JavaScript it stays
+  // hidden and the address can be copied from the field by hand.
+  var url = document.querySelector(".calendar-url"), copy = document.querySelector(".calendar-copy");
+  if (url) url.addEventListener("focus", function () { url.select(); });
+  if (url && copy && navigator.clipboard) {
+    copy.hidden = false;
+    copy.addEventListener("click", function () {
+      navigator.clipboard.writeText(url.value).then(function () {
+        copy.textContent = "Copied";
+        setTimeout(function () { copy.textContent = "Copy address"; }, 2000);
+      }, function () { url.focus(); url.select(); });
+    });
+  }
+
   var box = document.getElementById("seminar-talks");
   if (!box) return;
 
