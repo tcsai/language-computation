@@ -28,7 +28,7 @@ LLM-assisted method to help label the clusters with statistical
 cross-checks.
 
 Date: 2026-10-08
-Time: 12:30-13:00
+Time: 12:30-13:30
 Room: D 152 A
 Speaker: Hosein Mohebbi
 Title: Efficient and Interpretable Models of Spoken Language with Adaptive Context Compression
@@ -47,7 +47,7 @@ performance, while eliminating 50–70% of candidate frames and yielding
 significant inference speedups.
 
 Date: 2026-10-29
-Time: 12:30-13:00
+Time: 12:30-13:30
 Room: D 152 A
 Speaker: Bruno Nicenboim
 Title:
@@ -61,14 +61,14 @@ Title:
 Abstract:
 
 Date: 2026-11-26
-Time: 12:30-13:00
+Time: 12:30-13:30
 Room: D 152 A
 Speaker: Thomas Lieber
 Title: Piecewise additive methods
 Abstract:
 
 Date: 2026-12-10
-Time: 12:30-13:00
+Time: 12:30-13:30
 Room: D 152 A
 Speaker: Grzegorz Chrupała
 Title: The rise and evolution of a referential code in populations of bee-like agents
