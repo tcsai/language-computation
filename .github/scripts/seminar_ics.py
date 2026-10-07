@@ -2,8 +2,10 @@
 
 Run from the repository root: python3 .github/scripts/seminar_ics.py
 The file is only rewritten when a talk changed, so repeated runs do not
-produce new commits. Times are Dutch local time; a talk without a time is an
-all-day event, and one without an end time lasts an hour.
+produce new commits. A changed talk gets a higher SEQUENCE and a new
+LAST-MODIFIED, which tells subscribed calendars to update it. Times are Dutch
+local time; a talk without a time is an all-day event, and one without an end
+time lasts an hour.
 """
 
 import datetime
@@ -116,14 +118,47 @@ def event(talk, page):
     return lines
 
 
-def calendar(talks, page, stamp):
+def previous_events(ics):
+    """UID -> (content, SEQUENCE, LAST-MODIFIED) for the events in an earlier
+    seminar.ics, so unchanged talks keep their version and changed ones get
+    a higher one."""
+    events, current = {}, None
+    for line in ics.replace("\r\n", "\n").replace("\n ", "").split("\n"):
+        if line == "BEGIN:VEVENT":
+            current = {"lines": [], "seq": 0, "modified": None, "uid": None}
+        elif line == "END:VEVENT" and current:
+            events[current["uid"]] = ("\n".join(current["lines"]), current["seq"], current["modified"])
+            current = None
+        elif current is not None:
+            key, _, value = line.partition(":")
+            if key == "SEQUENCE":
+                current["seq"] = int(value)
+            elif key == "LAST-MODIFIED":
+                current["modified"] = value
+            elif key != "DTSTAMP":
+                current["lines"].append(line)
+                if key == "UID":
+                    current["uid"] = value
+    return events
+
+
+def calendar(talks, page, now, previous):
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//tcsai.github.io//Seminar//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              "X-WR-CALNAME:" + text("Seminar | Tilburg Computational Linguistics & Psycholinguistics"),
-             "X-WR-TIMEZONE:Europe/Amsterdam"] + TIMEZONE
+             "X-WR-TIMEZONE:Europe/Amsterdam",
+             # Ask calendar apps to check for changes every hour (Apple and
+             # Outlook follow this; Google Calendar refreshes on its own schedule).
+             "REFRESH-INTERVAL;VALUE=DURATION:PT1H", "X-PUBLISHED-TTL:PT1H"] + TIMEZONE
     for talk in talks:
         ev = event(talk, page)
-        lines += ev[:2] + ["DTSTAMP:" + stamp] + ev[2:]
+        uid = ev[1].partition(":")[2]
+        content = "\n".join(ev[1:-1])
+        old_content, seq, modified = previous.get(uid, (None, -1, None))
+        if content != old_content or not modified:
+            seq, modified = seq + 1, now
+        lines += ev[:2] + ["DTSTAMP:" + modified, "LAST-MODIFIED:" + modified,
+                           "SEQUENCE:" + str(seq)] + ev[2:]
     lines.append("END:VCALENDAR")
     return "".join(fold(line) + "\r\n" for line in lines)
 
@@ -139,17 +174,14 @@ def main():
     talks.sort(key=lambda t: t["date"])
 
     page = site_url()
-    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    new = calendar(talks, page, stamp)
-    # DTSTAMP changes on every run; ignore it when deciding whether to rewrite.
-    unstamped = lambda s: re.sub(r"DTSTAMP:\w+", "", s)
-    old = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
-    if unstamped(old.replace("\r\n", "\n")) != unstamped(new.replace("\r\n", "\n")):
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    old = OUTPUT.read_bytes().decode("utf-8") if OUTPUT.exists() else ""
+    new = calendar(talks, page, now, previous_events(old))
+    if new.replace("\r\n", "\n") != old.replace("\r\n", "\n"):
         OUTPUT.write_bytes(new.encode("utf-8"))
         print(f"Wrote {OUTPUT} with {len(talks)} talks")
     else:
         print(f"{OUTPUT} is up to date")
-
 
 if __name__ == "__main__":
     main()
