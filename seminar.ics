@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:20260917-fd976a49@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Seminar: Gaofei Shen – Representational Differences Explanations 
@@ -50,7 +50,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-50a6fc78@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;TZID=Europe/Amsterdam:20261008T123000
 DTEND;TZID=Europe/Amsterdam:20261008T133000
 SUMMARY:Seminar: Hosein Mohebbi – Efficient and Interpretable Models of S
@@ -73,18 +73,47 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261029-b2dbd4f2@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;TZID=Europe/Amsterdam:20261029T123000
 DTEND;TZID=Europe/Amsterdam:20261029T133000
 SUMMARY:Seminar: Bruno Nicenboim – All models are wrong\, and so is model
   comparison
 LOCATION:D 152 A\, Tilburg University
-DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+DESCRIPTION:A central goal of cognitive science\, and of any field that for
+ malizes its theories\, is to determine which theory best and most accurate
+ ly explains a set of phenomena. Researchers often implement competing theo
+ ries as computational models and use model comparison techniques to evalua
+ te the merits of the models as proxies for the theories.\n\nModel comparis
+ on has important limitations when all candidate models are misspecified\, 
+ a situation that is virtually guaranteed in real-world applications but is
+  often downplayed or plainly ignored. I illustrate these problems with a s
+ imulation. I generated response times and choices from a known race proces
+ s and fit three kinds of misspecified models to them: (1) models structura
+ lly similar to the "true" model but with wrong peripheral (or auxiliary) a
+ ssumptions\, (2) a model that assumes a qualitatively different mechanism\
+ , and (3) theory-agnostic statistical models. I then ranked the models wit
+ h Bayes factors and cross-validation. The simulation shows that the rankin
+ gs depended on which aspect of the data was modeled\, which peripheral ass
+ umptions were implemented\, and which comparison method was used. The best
+  predictions did not always come from the model closest to the truth. In a
+  real application\, moreover\, we would not know which situation we were i
+ n\, whether we had all the relevant data\, or how sensitive our comparison
+  was to peripheral assumptions. The case study uses Bayesian cognitive mod
+ els\, but the problem affects any model comparison\, whether it relies on 
+ Bayes factors\, cross-validation\, information criteria\, or held-out benc
+ hmarks. All of these tools rank models according to statistical criteria t
+ hat do not\, by themselves\, establish which theory is closer to the truth
+ . Turning model rankings into claims about theories therefore requires arg
+ uments that go beyond statistics. I close with suggestions for using model
+  comparison as a diagnostic tool: separating core from peripheral assumpti
+ ons\, choosing informative data and severe tests\, and building shared ben
+ chmarks so that evidence accumulates across studies.\n\nhttps://tcsai.gith
+ ub.io/language-computation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-c350b275@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;TZID=Europe/Amsterdam:20261112T124500
 DTEND;TZID=Europe/Amsterdam:20261112T134500
 SUMMARY:Seminar: Sara Østergaard
@@ -94,7 +123,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-f0b7be34@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;TZID=Europe/Amsterdam:20261126T123000
 DTEND;TZID=Europe/Amsterdam:20261126T133000
 SUMMARY:Seminar: Thomas Lieber – Piecewise additive methods
@@ -104,7 +133,7 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261210-2829a3e9@tcsai.github.io
-DTSTAMP:20261007T143656Z
+DTSTAMP:20261007T143832Z
 DTSTART;TZID=Europe/Amsterdam:20261210T123000
 DTEND;TZID=Europe/Amsterdam:20261210T133000
 SUMMARY:Seminar: Grzegorz Chrupała – The rise and evolution of a referen
