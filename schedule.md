@@ -11,7 +11,7 @@ Date: 2027-01-21
 Time: 12:30-13:30
 Room: D 152 A
 Speaker: Albert Gatt
-Title:
+Title: How do VLMs reason about relations? Mechanistic explorations of spatial and temporal reasoning in vision-language models.
 Abstract: 
 
 Date: 2026-09-17
