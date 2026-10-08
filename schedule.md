@@ -7,6 +7,12 @@ it takes place. Time (e.g. 12:30-13:00) and Room are optional. Title and
 Abstract can stay empty until known; an abstract can run over several lines,
 with a blank line between paragraphs.
 
+Date: 2027-01-21
+Time: 12:30-13:30
+Room: D 152 A
+Speaker: Albert Gatt
+Title:
+
 Date: 2026-09-17
 Speaker: Gaofei Shen
 Title: Representational Differences Explanations for spoken language models.
