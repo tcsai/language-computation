@@ -1,6 +1,7 @@
 // Lists the talks in schedule.md: upcoming talks first (soonest first), then
-// past talks (most recent first). A talk counts as upcoming until the end of
-// its day, judged by the visitor's clock.
+// past talks (most recent first). A talk counts as upcoming until its end time
+// in Amsterdam (start + 1 hour if only a start time is given, the end of the
+// day if no time is given), whatever the visitor's time zone.
 (function () {
   // Button that copies the calendar address; without JavaScript it stays
   // hidden and the address can be copied from the field by hand.
@@ -92,10 +93,29 @@
   });
   talks.sort(function (a, b) { return a.date - b.date; });
 
-  var now = new Date();
-  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  var upcoming = talks.filter(function (talk) { return talk.date >= today; });
-  var past = talks.filter(function (talk) { return talk.date < today; }).reverse();
+  // The moment given as a date and minutes after midnight in Amsterdam.
+  var AMSTERDAM = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Amsterdam", hourCycle: "h23",
+    year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric" });
+  function amsterdamTime(d, minutes) {
+    var guess = Date.UTC(d.getFullYear(), d.getMonth(), d.getDate(), 0, minutes);
+    for (var i = 0; i < 2; i++) {
+      var p = {};
+      AMSTERDAM.formatToParts(new Date(guess)).forEach(function (part) { p[part.type] = +part.value; });
+      var shown = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute);
+      guess += Date.UTC(d.getFullYear(), d.getMonth(), d.getDate(), 0, minutes) - shown;
+    }
+    return guess;
+  }
+
+  function endsAt(talk) {
+    var t = oneLine(talk.time).match(/^(\d{1,2})[:.](\d{2})(?:\s*-\s*(\d{1,2})[:.](\d{2}))?/);
+    if (!t) return amsterdamTime(talk.date, 24 * 60);
+    return amsterdamTime(talk.date, t[3] ? +t[3] * 60 + +t[4] : +t[1] * 60 + +t[2] + 60);
+  }
+
+  var now = Date.now();
+  var upcoming = talks.filter(function (talk) { return endsAt(talk) > now; });
+  var past = talks.filter(function (talk) { return endsAt(talk) <= now; }).reverse();
 
   box.innerHTML = (upcoming.length ? section("Upcoming", upcoming)
       : "<h2>Upcoming</h2><p>No upcoming talks scheduled yet.</p>") +

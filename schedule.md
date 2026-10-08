@@ -2,8 +2,8 @@
 
 Talks shown on the Seminar page. To add a talk, copy a block and fill it in.
 Write dates as YYYY-MM-DD. The order of the blocks does not matter: the page
-lists upcoming talks first and moves each talk to the past ones the day after
-it takes place. Time (e.g. 12:30-13:00) and Room are optional. Title and
+lists upcoming talks first and moves each talk to the past ones once its end
+time (Amsterdam time) has passed. Time (e.g. 12:30-13:30) and Room are optional. Title and
 Abstract can stay empty until known; an abstract can run over several lines,
 with a blank line between paragraphs.
 
