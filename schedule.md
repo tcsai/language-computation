@@ -12,6 +12,7 @@ Time: 12:30-13:30
 Room: D 152 A
 Speaker: Albert Gatt
 Title:
+Abstract: 
 
 Date: 2026-09-17
 Speaker: Gaofei Shen
