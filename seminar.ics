@@ -176,4 +176,16 @@ DESCRIPTION:Communication typically relies on a shared code\, and any chang
  e-computation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
+BEGIN:VEVENT
+UID:20270121-413b4e9d@tcsai.github.io
+DTSTAMP:20261008T132043Z
+LAST-MODIFIED:20261008T132043Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Amsterdam:20270121T123000
+DTEND;TZID=Europe/Amsterdam:20270121T133000
+SUMMARY:Seminar: Albert Gatt
+LOCATION:D 152 A\, Tilburg University
+DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+URL:https://tcsai.github.io/language-computation/seminar.html
+END:VEVENT
 END:VCALENDAR
