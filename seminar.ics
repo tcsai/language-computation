@@ -178,12 +178,14 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20270121-413b4e9d@tcsai.github.io
-DTSTAMP:20261008T132043Z
-LAST-MODIFIED:20261008T132043Z
-SEQUENCE:0
+DTSTAMP:20261008T164303Z
+LAST-MODIFIED:20261008T164303Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Amsterdam:20270121T123000
 DTEND;TZID=Europe/Amsterdam:20270121T133000
-SUMMARY:Seminar: Albert Gatt
+SUMMARY:Seminar: Albert Gatt – How do VLMs reason about relations? Mechan
+ istic explorations of spatial and temporal reasoning in vision-language mo
+ dels.
 LOCATION:D 152 A\, Tilburg University
 DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
