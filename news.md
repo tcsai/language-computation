@@ -3,6 +3,11 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** [Post-hoc Disentanglement of Textual and Acoustic Features
+  in Pre-trained Speech Encoders](https://arxiv.org/abs/2410.03037) by Hosein
+  Mohebbi, Grzegorz Chrupała, Willem Zuidema, Afra Alishahi and Ivan Titov has
+  been accepted to Transactions of the Association for Computational
+  Linguistics (TACL).
 - **October 2026.** [Comparing Multi-Task Strategies for Multiple Dataset
   Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5) by
   Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
