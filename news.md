@@ -8,7 +8,8 @@
   [How language refers to the world](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2025).
   The project studies how people combine what they see around them with
   knowledge of language and the world to work out what words refer to, using
-  computer simulations of language processing in the brain.
+  computer simulations to make predictions about behavioural and brain
+  measurements.
 - **October 2026.** [Post-hoc Disentanglement of Textual and Acoustic Features
   in Pre-trained Speech Encoders](https://arxiv.org/abs/2410.03037) by Hosein
   Mohebbi, Grzegorz Chrupała, Willem Zuidema, Afra Alishahi and Ivan Titov has
