@@ -3,7 +3,7 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
-- **October 2026.** Noortje Venhuizen has received an NWO Vidi grant of
+- **October 2026.** Noortje Venhuizen has been awarded an NWO Vidi grant of
   850,000 euros for the project
   [How language refers to the world](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2025).
   The project studies how people combine what they see around them with
