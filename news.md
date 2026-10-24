@@ -3,6 +3,10 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** Gaofei Shen presents
+  [Beyond Decodability: Reconstructing Language Model Representations with an
+  Encoding Probe](https://aclanthology.org/2026.emnlp-main.654/) at EMNLP 2026
+  in Budapest, in the poster session on 25 October.
 - **October 2026.** Noortje Venhuizen has been awarded an NWO Vidi grant of
   850,000 euros for the project
   [How language refers to the world](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2025).
