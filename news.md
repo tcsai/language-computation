@@ -19,6 +19,10 @@
   Mohebbi, Grzegorz Chrupała, Willem Zuidema, Afra Alishahi and Ivan Titov has
   been accepted to Transactions of the Association for Computational
   Linguistics (TACL).
+- **October 2026.** Afra Alishahi gave the keynote at the workshop
+  [Developmental AI for Language and Cognition](https://www.ultraspeech.com/devai/devai-workshop-2026/)
+  in Grenoble on 14–15 October, with the talk "Are computational cognitive
+  models of human language still relevant?"
 - **October 2026.** [Comparing Multi-Task Strategies for Multiple Dataset
   Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5) by
   Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
