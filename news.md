@@ -32,6 +32,11 @@
   Representations with an Encoding Probe](https://arxiv.org/abs/2605.00607) by
   Gaofei Shen, Martijn Bentum, Tom Lentz, Afra Alishahi and Grzegorz Chrupała
   has been accepted to EMNLP 2026.
+- **August 2026.** Afra Alishahi was one of the lecturers at the
+  [School on Analytical Connectionism](https://www.analytical-connectionism.net/school/2026/),
+  a two-week summer school on language acquisition at Chalmers and the
+  University of Gothenburg, with a lecture on modelling human cognition in the
+  age of LLMs.
 - **June 2026.** Tilburg hosted EAMT 2026, the 26th annual conference of the
   European Association for Machine Translation, from 15 to 18 June. Members of
   the unit were on the organising team and edited the
