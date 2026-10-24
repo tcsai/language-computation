@@ -3,6 +3,10 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** Hosein Mohebbi is one of the organisers of
+  [BlackboxNLP 2026](https://blackboxnlp.github.io/2026/), the ninth workshop
+  on analysing and interpreting neural networks for NLP, held at EMNLP 2026 in
+  Budapest on 29 October.
 - **October 2026.** Gaofei Shen presents
   [Beyond Decodability: Reconstructing Language Model Representations with an
   Encoding Probe](https://aclanthology.org/2026.emnlp-main.654/) at EMNLP 2026

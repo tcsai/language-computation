@@ -26,6 +26,7 @@ version where there is one, otherwise to the preprint.
 - Roland Roller, Vera Czehmann, Derya Erman et al. [DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information](https://arxiv.org/abs/2606.30312). *Preprint, arXiv*.
 - Gaofei Shen, Martijn Bentum, Tomas O. Lentz, Afra Alishahi and Grzegorz Chrupała. [Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe](https://aclanthology.org/2026.emnlp-main.654/). *EMNLP 2026*.
 - Dimitar Shterionov, Noa van Helleman and Eva Vanmassenhove. [Diversity and Homogenisation in Generative AI Translation: A Comparative Study of English-Dutch Translation Across Domains](https://aclanthology.org/2026.eamt-1.6/). *EAMT 2026*.
+- Elizaveta Sivak, Emily M. Cantrell, Thomas Emery et al. [Births are difficult to predict even with rich survey and full-population register data](https://arxiv.org/abs/2609.01194). *Preprint, arXiv*.
 - Eva Vanmassenhove. [Losing our Tail, Again: (Un)Natural Selection & Multilingual LLMs](https://doi.org/10.18653/v1/2026.acl-long.532). *ACL 2026*.
 - Yixia Wang, Peter Hendrix and Emmanuel Keuleers. [Orthographic Neighbourhood Size Effects in Chinese Character Recognition: Small, Inconsistent, and Theoretically Ambiguous](https://doi.org/10.5334/joc.505). *Journal of Cognition*.
 
