@@ -95,8 +95,25 @@ Date: 2026-11-12
 Time: 12:45-13:45
 Room: MKZ 221
 Speaker: Sara Østergaard
-Title:
-Abstract:
+Title: Defining a continuous measure of semantic association using embeddings
+Abstract: Online reading comprehension relies on the continuous
+integration of each word with its preceding context. Word
+predictability, often quantified as surprisal, is a well-established
+effect supporting contextual processing. However, predictability alone
+does not fully explain how context affects comprehension. Results from
+semantic illusion studies demonstrate that a surprising word does not
+necessarily elicit effects typically associated with unpredictability
+(i.e., a more negative N400) when it is semantically associated with the
+preceding context. While semantic illusion effects have been observed in
+handcrafted stimuli, studying whether the effects generalize to natural
+text requires a graded measure of semantic association. Previous studies
+have highlighted the potential of embedding-based measures of semantic
+association; however, findings from Østergaard et al. (2026) indicate
+that the estimated effects depend critically on the choice of embedding
+model. In this talk, I will present work in which we validated and
+explored embedding-based implementations of semantic association. The
+results of the study highlight the complexity of defining semantic
+association from embeddings.
 
 Date: 2026-11-26
 Time: 12:30-13:30
