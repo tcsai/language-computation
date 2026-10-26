@@ -121,14 +121,32 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-c350b275@tcsai.github.io
-DTSTAMP:20261007T145756Z
-LAST-MODIFIED:20261007T145756Z
-SEQUENCE:1
+DTSTAMP:20261026T160915Z
+LAST-MODIFIED:20261026T160915Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Amsterdam:20261112T124500
 DTEND;TZID=Europe/Amsterdam:20261112T134500
-SUMMARY:Seminar: Sara Østergaard
+SUMMARY:Seminar: Sara Østergaard – Defining a continuous measure of sema
+ ntic association using embeddings
 LOCATION:MKZ 221\, Tilburg University
-DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+DESCRIPTION:Online reading comprehension relies on the continuous integrati
+ on of each word with its preceding context. Word predictability\, often qu
+ antified as surprisal\, is a well-established effect supporting contextual
+  processing. However\, predictability alone does not fully explain how con
+ text affects comprehension. Results from semantic illusion studies demonst
+ rate that a surprising word does not necessarily elicit effects typically 
+ associated with unpredictability (i.e.\, a more negative N400) when it is 
+ semantically associated with the preceding context. While semantic illusio
+ n effects have been observed in handcrafted stimuli\, studying whether the
+  effects generalize to natural text requires a graded measure of semantic 
+ association. Previous studies have highlighted the potential of embedding-
+ based measures of semantic association\; however\, findings from Østergaa
+ rd et al. (2026) indicate that the estimated effects depend critically on 
+ the choice of embedding model. In this talk\, I will present work in which
+  we validated and explored embedding-based implementations of semantic ass
+ ociation. The results of the study highlight the complexity of defining se
+ mantic association from embeddings.\n\nhttps://tcsai.github.io/language-co
+ mputation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
