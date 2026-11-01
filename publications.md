@@ -11,8 +11,10 @@ version where there is one, otherwise to the preprint.
 - Yves A. Duppen, Mirella De Sisto, Ifigeneia Mavridou, Phillip Brown, Lisa Lepp and Dimitar Shterionov. [Feature Analysis of MoCap Data for Optimised Sign Language Processing](https://doi.org/10.63317/4e3o6m3ntvt3). *Sign Language Workshop at LREC 2026*.
 - Joris van Eijkelenburg, Aron Joosse, Erik-Jan van Kesteren and Giovanni Cassani. [Smart brands, trustworthy people, and evil words: Sub-lexical distributional patterns capture human semantic associations for names and novel words](https://doi.org/10.3758/s13423-026-03021-3). *Psychonomic Bulletin & Review*.
 - Marianne de Heer Kloots, Martijn Bentum, Hosein Mohebbi, Charlotte Pouw, Gaofei Shen and Willem Zuidema. [Tracking the emergence of linguistic structure in self-supervised models learning from speech](https://arxiv.org/abs/2604.02043). *Preprint, arXiv*.
-- Diptesh Kanojia, Archchana Sindhujan, Sourabh Deoghare et al. [IndicQE-APE: A Consolidated Benchmark for Quality Estimation and Automatic Post-Editing for Indic Languages](https://arxiv.org/abs/2608.16344). *Preprint, arXiv*.
+- Nityaa Kalra, Jisk J Attema and Dimitar Shterionov. [Where Do Predictions Go? Class-Level Shifts and Carbon Cost in Stance Detection](https://aclanthology.org/2026.nlp4pi-1.43/). *Workshop on NLP for Positive Impact at EMNLP 2026*.
+- Diptesh Kanojia, Archchana Sindhujan, Sourabh Deoghare et al. [IndicQE-APE: A Consolidated Benchmark for Quality Estimation and Automatic Post-Editing over Indic Languages](https://aclanthology.org/2026.wmt-main.19/). *WMT 2026*.
 - Jonas Klein, Chiara Manna and Eva Vanmassenhove. [Is She Even Relevant? When BERT Ignores Explicit Gender Cues](https://www.clinjournal.org/clinj/article/view/245). *Computational Linguistics in the Netherlands Journal*.
+- Alon Lavie, Greg Hanneman, Stefano Perrella et al. [Findings of the WMT26 Shared Task on Automated Translation Quality Evaluation Systems: Compact Open Models are Competitive Quality Evaluators](https://aclanthology.org/2026.wmt-main.49/). *WMT 2026*.
 - Lisa Lepp, Mirella De Sisto and Dimitar Shterionov. [Two-Handed Signs and Handedness: Phonological Implications for Sign Language Structure](https://doi.org/10.63317/3per9mf2462d). *Sign Language Workshop at LREC 2026*.
 - Muqing Li, Torsten Kai Jachmann, Noortje J. Venhuizen, Heiner Drenhaus and Matthew Crocker. [The Influence of Informativity on Syntactic Linearization in Reference Production](https://doi.org/10.2139/ssrn.6442001). *Preprint, SSRN*.
 - David G. Loughrey, Caro Brosens, Rachel A. Moiselle, Dimitar Shterionov, Vincent Vandeghinste, Andy Way and Lorraine Leeson. [Towards equitable artificial intelligence for deaf and hard of hearing (DHH) and disabled communities: ethical challenges and co-development](https://doi.org/10.1007/s43681-026-01230-z). *AI and Ethics*.
@@ -37,6 +39,7 @@ version where there is one, otherwise to the preprint.
 ## 2025
 
 - Marine Carpuat, Omri Asscher, Kalika Bali et al. [An Interdisciplinary Approach to Human-Centered Machine Translation](https://doi.org/10.18653/v1/2025.emnlp-main.1164). *EMNLP 2025*.
+- Adil Derrazi and Javad Pourmostafa Roshan Sharami. [Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction](https://doi.org/10.1007/978-3-031-99958-1_27). *IntelliSys 2025*.
 - Marina Dubova, Suyog Chandramouli, Gerd Gigerenzer et al. [Is Ockham’s razor losing its edge? New perspectives on the principle of model parsimony](https://doi.org/10.1073/pnas.2401230121). *Proceedings of the National Academy of Sciences*.
 - Çiçek Güven, Afra Alishahi, Henry Brighton et al. [AI in Support of Diversity and Inclusion](https://arxiv.org/abs/2501.09534). *Preprint, arXiv*.
 - Lisa Lepp, Dimitar Shterionov, Mirella De Sisto and Grzegorz Chrupała. [Co-Creation for Sign Language Processing and Translation Technology](https://doi.org/10.3390/info16040290). *Information*.
