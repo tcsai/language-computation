@@ -3,13 +3,48 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **October 2026.** Hosein Mohebbi is one of the organisers of
+  [BlackboxNLP 2026](https://blackboxnlp.github.io/2026/), the ninth workshop
+  on analysing and interpreting neural networks for NLP, held at EMNLP 2026 in
+  Budapest on 29 October.
+- **October 2026.** Gaofei Shen presents
+  [Beyond Decodability: Reconstructing Language Model Representations with an
+  Encoding Probe](https://aclanthology.org/2026.emnlp-main.654/) at EMNLP 2026
+  in Budapest, in the poster session on 25 October.
+- **October 2026.** Noortje Venhuizen has been awarded an NWO Vidi grant of
+  850,000 euros for the project
+  [How language refers to the world](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2025).
+  The project studies how people combine what they see around them with
+  knowledge of language and the world to work out what words refer to, using
+  computer simulations to make predictions about behavioural and brain
+  measurements.
+- **October 2026.** [Post-hoc Disentanglement of Textual and Acoustic Features
+  in Pre-trained Speech Encoders](https://arxiv.org/abs/2410.03037) by Hosein
+  Mohebbi, Grzegorz Chrupała, Willem Zuidema, Afra Alishahi and Ivan Titov has
+  been accepted to Transactions of the Association for Computational
+  Linguistics (TACL).
+- **October 2026.** Afra Alishahi gave the keynote at the workshop
+  [Developmental AI for Language and Cognition](https://www.ultraspeech.com/devai/devai-workshop-2026/)
+  in Grenoble on 14–15 October, with the talk "Are computational cognitive
+  models of human language still relevant?"
+- **October 2026.** [Comparing Multi-Task Strategies for Multiple Dataset
+  Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5) by
+  Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
+  oral presentation at BNAIC/BeNeLearn 2026.
+- **October 2026.** Gaofei Shen
+  [demonstrated speech technology](https://bsky.app/profile/tilburg-clp.bsky.social/post/3mx2d3b3prc2k)
+  to visitors of the
+  [Weekend of Science](https://weekendvandewetenschap.nl/hotspots/tilburg-spoorzone/2026/)
+  at MindLabs on 4 October.
 - **September 2026.** [Beyond Decodability: Reconstructing Language Model
   Representations with an Encoding Probe](https://arxiv.org/abs/2605.00607) by
   Gaofei Shen, Martijn Bentum, Tom Lentz, Afra Alishahi and Grzegorz Chrupała
-  has been accepted to EMNLP 2026. Instead of decoding features from a model's
-  activations, the probe reconstructs the activations from interpretable
-  linguistic features, then removes features one at a time to rank how much
-  each contributes.
+  has been accepted to EMNLP 2026.
+- **August 2026.** Afra Alishahi was one of the lecturers at the
+  [School on Analytical Connectionism](https://www.analytical-connectionism.net/school/2026/),
+  a two-week summer school on language acquisition at Chalmers and the
+  University of Gothenburg, with a lecture on modelling human cognition in the
+  age of LLMs.
 - **June 2026.** Tilburg hosted EAMT 2026, the 26th annual conference of the
   European Association for Machine Translation, from 15 to 18 June. Members of
   the unit were on the organising team and edited the

@@ -1,0 +1,52 @@
+# Rebuilds seminar.ics from schedule.md whenever the schedule changes on main,
+# commits it, and asks GitHub Pages to rebuild the site. Commits made with the
+# workflow's token do not start a Pages build by themselves.
+name: Seminar calendar
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - schedule.md
+      - _config.yml
+      - .github/scripts/seminar_ics.py
+      - .github/workflows/seminar-calendar.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: seminar-calendar
+  cancel-in-progress: false
+
+jobs:
+  calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build seminar.ics
+        run: python3 .github/scripts/seminar_ics.py
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- seminar.ics && git ls-files --error-unmatch seminar.ics >/dev/null 2>&1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seminar.ics
+          git commit -m "Update seminar calendar"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild the site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds"

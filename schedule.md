@@ -2,9 +2,17 @@
 
 Talks shown on the Seminar page. To add a talk, copy a block and fill it in.
 Write dates as YYYY-MM-DD. The order of the blocks does not matter: the page
-lists upcoming talks first and moves each talk to the past ones the day after
-it takes place. Title and Abstract can stay empty until known; an abstract can
-run over several lines, with a blank line between paragraphs.
+lists upcoming talks first and moves each talk to the past ones once its end
+time (Amsterdam time) has passed. Time (e.g. 12:30-13:30) and Room are optional. Title and
+Abstract can stay empty until known; an abstract can run over several lines,
+with a blank line between paragraphs.
+
+Date: 2027-01-21
+Time: 12:30-13:30
+Room: D 152 A
+Speaker: Albert Gatt
+Title: How do VLMs reason about relations? Mechanistic explorations of spatial and temporal reasoning in vision-language models.
+Abstract: 
 
 Date: 2026-09-17
 Speaker: Gaofei Shen
@@ -27,26 +35,96 @@ LLM-assisted method to help label the clusters with statistical
 cross-checks.
 
 Date: 2026-10-08
+Time: 12:30-13:30
+Room: D 152 A
 Speaker: Hosein Mohebbi
-Title:
-Abstract:
+Title: Efficient and Interpretable Models of Spoken Language with Adaptive Context Compression
+Abstract: This talk explores adaptive compute for audio context compression. We
+introduce a method to progressively shorten the sequence of acoustic
+frames as they pass through successive model layers. By dynamically
+merging redundant temporal frames, our approach physically reduces the
+context length at inference time, yielding tangible latency
+improvements. A major focus of the talk will be the techniques used to
+guarantee strict train-inference consistency despite physically merging
+and removing these frames. I will share evaluations on OpenAI's Whisper
+model across ASR and Speech Translation tasks, showing that adaptive
+context compression consistently outperforms static baselines like
+LayerDrop and Distillation, maintaining or even improving original model
+performance, while eliminating 50–70% of candidate frames and yielding
+significant inference speedups.
 
 Date: 2026-10-29
-Speaker: Céline Angonin
-Title:
-Abstract:
+Time: 12:30-13:30
+Room: D 152 A
+Speaker: Bruno Nicenboim
+Title: All models are wrong, and so is model comparison
+Abstract: A central goal of cognitive science, and of any field that
+formalizes its theories, is to determine which theory best and most
+accurately explains a set of phenomena. Researchers often implement
+competing theories as computational models and use model comparison
+techniques to evaluate the merits of the models as proxies for the
+theories.
+
+Model comparison has important limitations when all candidate models are
+misspecified, a situation that is virtually guaranteed in real-world
+applications but is often downplayed or plainly ignored. I illustrate
+these problems with a simulation. I generated response times and choices
+from a known race process and fit three kinds of misspecified models to
+them: (1) models structurally similar to the "true" model but with wrong
+peripheral (or auxiliary) assumptions, (2) a model that assumes a
+qualitatively different mechanism, and (3) theory-agnostic statistical
+models. I then ranked the models with Bayes factors and cross-validation.
+The simulation shows that the rankings depended on which aspect of the
+data was modeled, which peripheral assumptions were implemented, and which
+comparison method was used. The best predictions did not always come from
+the model closest to the truth. In a real application, moreover, we would
+not know which situation we were in, whether we had all the relevant data,
+or how sensitive our comparison was to peripheral assumptions. The case
+study uses Bayesian cognitive models, but the problem affects any model
+comparison, whether it relies on Bayes factors, cross-validation,
+information criteria, or held-out benchmarks. All of these tools rank
+models according to statistical criteria that do not, by themselves,
+establish which theory is closer to the truth. Turning model rankings into
+claims about theories therefore requires arguments that go beyond
+statistics. I close with suggestions for using model comparison as a
+diagnostic tool: separating core from peripheral assumptions, choosing
+informative data and severe tests, and building shared benchmarks so that
+evidence accumulates across studies.
 
 Date: 2026-11-12
+Time: 12:45-13:45
+Room: MKZ 221
 Speaker: Sara Østergaard
-Title:
-Abstract:
+Title: Defining a continuous measure of semantic association using embeddings
+Abstract: Online reading comprehension relies on the continuous
+integration of each word with its preceding context. Word
+predictability, often quantified as surprisal, is a well-established
+effect supporting contextual processing. However, predictability alone
+does not fully explain how context affects comprehension. Results from
+semantic illusion studies demonstrate that a surprising word does not
+necessarily elicit effects typically associated with unpredictability
+(i.e., a more negative N400) when it is semantically associated with the
+preceding context. While semantic illusion effects have been observed in
+handcrafted stimuli, studying whether the effects generalize to natural
+text requires a graded measure of semantic association. Previous studies
+have highlighted the potential of embedding-based measures of semantic
+association; however, findings from Østergaard et al. (2026) indicate
+that the estimated effects depend critically on the choice of embedding
+model. In this talk, I will present work in which we validated and
+explored embedding-based implementations of semantic association. The
+results of the study highlight the complexity of defining semantic
+association from embeddings.
 
 Date: 2026-11-26
+Time: 12:30-13:30
+Room: D 152 A
 Speaker: Thomas Lieber
 Title: Piecewise additive methods
 Abstract:
 
 Date: 2026-12-10
+Time: 12:30-13:30
+Room: D 152 A
 Speaker: Grzegorz Chrupała
 Title: The rise and evolution of a referential code in populations of bee-like agents
 Abstract:

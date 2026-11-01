@@ -5,6 +5,7 @@ version where there is one, otherwise to the preprint.
 
 ## 2026
 
+- Céline Angonin, Grzegorz Chrupała and Dan Stowell. [Comparing Multi-Task Strategies for Multiple Dataset Learning in Bioacoustics](https://openreview.net/forum?id=ljXGTr9kf5). *BNAIC/BeNeLearn 2026*.
 - Giovanni Cassani and Matteo Colombo. [Thickness Is More Than Affective Valence: Evaluative Language Through the Lenses of Psycholinguistics](https://doi.org/10.1111/cogs.70180). *Cognitive Science*.
 - Grzegorz Chrupała. [The rise and evolution of a referential code in populations of bee-like agents](https://arxiv.org/abs/2608.25779). *Preprint, arXiv*.
 - Yves A. Duppen, Mirella De Sisto, Ifigeneia Mavridou, Phillip Brown, Lisa Lepp and Dimitar Shterionov. [Feature Analysis of MoCap Data for Optimised Sign Language Processing](https://doi.org/10.63317/4e3o6m3ntvt3). *Sign Language Workshop at LREC 2026*.
@@ -15,6 +16,7 @@ version where there is one, otherwise to the preprint.
 - David G. Loughrey, Caro Brosens, Rachel A. Moiselle, Dimitar Shterionov, Vincent Vandeghinste, Andy Way and Lorraine Leeson. [Towards equitable artificial intelligence for deaf and hard of hearing (DHH) and disabled communities: ethical challenges and co-development](https://doi.org/10.1007/s43681-026-01230-z). *AI and Ethics*.
 - Chiara Manna, Hosein Mohebbi, Afra Alishahi, Frédéric Blain and Eva Vanmassenhove. [Gender Disambiguation in Machine Translation: Diagnostic Evaluation in Decoder-Only Architectures](https://doi.org/10.63317/4wphxianzxf6). *LREC 2026*.
 - Chiara Manna, Argentina Anna Rescigno and Eva Vanmassenhove. [Rethinking Gender Annotation for Bias Evaluation in Machine Translation: Can LLMs Improve Reliability?](https://aclanthology.org/2026.gitt-1.3/). *GITT 2026*.
+- Hosein Mohebbi, Grzegorz Chrupała, Willem Zuidema, Afra Alishahi and Ivan Titov. [Post-hoc Disentanglement of Textual and Acoustic Features in Pre-trained Speech Encoders](https://arxiv.org/abs/2410.03037). *Transactions of the Association for Computational Linguistics*.
 - Sara Møller Østergaard, Lenneke Doris Lichtenberg, Laura Boon and Bruno Nicenboim. [A Corpus of Joint EEG and Self-Paced Reading of Natural Dutch Texts](https://doi.org/10.63317/49tvxys2q4zc). *LREC 2026*.
 - Sara Møller Østergaard, Kenneth Enevoldsen, Afra Alishahi and Bruno Nicenboim. [Modeling semantic association in self-paced reading with language model embeddings](https://doi.org/10.63317/5hz52qgp2gdn). *Workshop on Cognitive Modeling and Computational Linguistics at LREC 2026*.
 - Petr Plecháč, Artjoms Šeļa, Ben Nagy et al. [Unsupervised rhyme recognition across multiple languages: training data size, human agreement, and linguistic differences](https://doi.org/10.1093/llc/fqag098). *Digital Scholarship in the Humanities*.
@@ -23,8 +25,9 @@ version where there is one, otherwise to the preprint.
 - Mattia Proietti, Afra Alishahi, Grzegorz Chrupała and Alessandro Lenci. [Mechanistic Interpretability Meets Cognitive Linguistics: Modelling Locative Image Schemas in the Circuit Framework](https://doi.org/10.63317/4iwnnycar4sc). *LREC 2026*.
 - Argentina Anna Rescigno, Eva Vanmassenhove and Johanna Monti. [ConGA: Guidelines for Contextual Gender Annotation. A Framework for Annotating Gender in Machine Translation](https://doi.org/10.63317/5nai3xa6oon7). *LREC 2026*.
 - Roland Roller, Vera Czehmann, Derya Erman et al. [DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information](https://arxiv.org/abs/2606.30312). *Preprint, arXiv*.
-- Gaofei Shen, Martijn Bentum, Tom Lentz, Afra Alishahi and Grzegorz Chrupała. [Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe](https://arxiv.org/abs/2605.00607). *EMNLP 2026*.
+- Gaofei Shen, Martijn Bentum, Tomas O. Lentz, Afra Alishahi and Grzegorz Chrupała. [Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe](https://aclanthology.org/2026.emnlp-main.654/). *EMNLP 2026*.
 - Dimitar Shterionov, Noa van Helleman and Eva Vanmassenhove. [Diversity and Homogenisation in Generative AI Translation: A Comparative Study of English-Dutch Translation Across Domains](https://aclanthology.org/2026.eamt-1.6/). *EAMT 2026*.
+- Elizaveta Sivak, Emily M. Cantrell, Thomas Emery et al. [Births are difficult to predict even with rich survey and full-population register data](https://arxiv.org/abs/2609.01194). *Preprint, arXiv*.
 - Eva Vanmassenhove. [Losing our Tail, Again: (Un)Natural Selection & Multilingual LLMs](https://doi.org/10.18653/v1/2026.acl-long.532). *ACL 2026*.
 - Yixia Wang, Peter Hendrix and Emmanuel Keuleers. [Orthographic Neighbourhood Size Effects in Chinese Character Recognition: Small, Inconsistent, and Theoretically Ambiguous](https://doi.org/10.5334/joc.505). *Journal of Cognition*.
 - Jana M. Woerner, Céline Angonin, Andrew S. Gersick et al. [HyenaSET: Hyena Sound Event Transcripts and benchmark animal2vec performance for parsing animal communication](https://doi.org/10.64898/2026.06.14.732108). *Preprint, bioRxiv*.
@@ -73,7 +76,6 @@ version where there is one, otherwise to the preprint.
 - Aron Y. Joosse, Gökçe Kuscu and Giovanni Cassani. [You sound like an evil young man: A distributional semantic analysis of systematic form-meaning associations for polarity, gender, and age in fictional characters' names](https://doi.org/10.1037/xlm0001345). *Journal of Experimental Psychology: Learning, Memory, and Cognition*.
 - Sergey Kramp, Giovanni Cassani and Chris Emmery. [BigNLI: Native Language Identification with Big Bird Embeddings](https://doi.org/10.63317/2kpqrpvviqx5). *LREC-COLING 2024*.
 - Lorraine Leeson, Sara Morrissey, Dimitar Shterionov, Daniel Stein, Henk van den Heuvel and Andy Way. [How It Started and How It’s Going: Sign Language Machine Translation and Engagement with Deaf Communities Over the Past 25 Years](https://doi.org/10.1007/978-3-031-47362-3_2). *In Sign Language Machine Translation (Springer)*.
-- Hosein Mohebbi, Grzegorz Chrupała, Willem H. Zuidema, Afra Alishahi and Ivan S. Titov. [Disentangling Textual and Acoustic Features of Neural Speech Representations](https://arxiv.org/abs/2410.03037). *Preprint, arXiv*.
 - Hosein Mohebbi, Jaap Jumelet, Michael Hanna, Afra Alishahi and Willem Zuidema. [Transformer-specific Interpretability](https://doi.org/10.18653/v1/2024.eacl-tutorials.4). *EACL 2024 Tutorials*.
 - Petr Plecháč, Silvie Cinková, Robert Kolár, Artjoms Šeļa, Mirella De Sisto, Lara Nugues, Thomas Haider and Neža Kočnik. [PoeTree: Poetry Treebanks in Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, Slovenian and Spanish](https://doi.org/10.1163/24523666-bja10044). *Research Data Journal for the Humanities and Social Sciences*.
 - Javad Pourmostafa Roshan Sharami, Dimitar Shterionov and Pieter Spronck. [Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation](https://aclanthology.org/2024.amta-research.9/). *AMTA 2024*.

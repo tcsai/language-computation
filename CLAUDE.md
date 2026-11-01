@@ -13,6 +13,7 @@ Pages (Jekyll, deployed from `main`). `README.md` explains the files.
 - Libby Lepp is listed as "Libby" on People but publishes as Lisa Lepp. In
   author lists, use names as printed on the paper.
 - Seminar talks are kept by hand in `schedule.md`. Don't edit it.
+- `seminar.ics` is generated from `schedule.md` by a GitHub Action. Don't edit it.
 
 ### Publications (`publications.md`)
 
@@ -41,6 +42,8 @@ Pages (Jekyll, deployed from `main`). `README.md` explains the files.
   event takes place.
 - One to three short sentences for a general academic reader, with a link to
   the source (paper, event page, announcement).
+- For papers, give only the linked title, the authors and where it was
+  accepted; don't describe the content.
 - Newsworthy: papers accepted at major conferences and journals, awards, grants,
   PhD defences, new members and members' moves, events the unit organises or
   hosts, keynotes, media coverage. Not every preprint or talk.
