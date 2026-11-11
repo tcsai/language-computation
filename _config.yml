@@ -67,7 +67,6 @@ plugins:
   - jekyll-optional-front-matter # Markdown files need no front matter
   - jekyll-titles-from-headings  # page title = first heading
   - jekyll-relative-links        # [People](people.md) links work
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 optional_front_matter:
