@@ -119,8 +119,24 @@ Date: 2026-11-26
 Time: 12:30-13:30
 Room: D 152 A
 Speaker: Thomas Lieber
-Title: Piecewise additive methods
-Abstract:
+Title: The Pros of using PAMMs: From Reaction Times to Response Dynamics
+Abstract: Reaction times are widely studied in psycholinguistics, typically
+using linear mixed-effects models (LMMs) or generalized additive mixed models
+(GAMMs). However, these approaches generally treat time as the dependent
+variable, limiting insight into when predictor effects emerge.
+
+Piece-wise additive mixed models (PAMMs) instead model the hazard rate,
+allowing non-linear predictor effects to vary throughout the response window
+while accounting for random effects. Despite these advantages, PAMMs remain
+underutilized in psycholinguistics.
+
+I evaluate PAMMs using the Massive Auditory Lexical Decision dataset, comparing
+them with LMMs and GAMMs. I will demonstrate how PAMMs reveal temporal dynamics
+obscured by conventional approaches.
+
+My end goal with this is to write a tutorial to provide practical guidance on
+data preparation, model fitting, evaluation, and interpretation to facilitate
+broader adoption of PAMMs.
 
 Date: 2026-12-10
 Time: 12:30-13:30
