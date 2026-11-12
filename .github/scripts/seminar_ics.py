@@ -27,11 +27,15 @@ TIMEZONE = [
 ]
 
 
+def config_value(key):
+    """A top-level setting from _config.yml."""
+    config = Path("_config.yml").read_text(encoding="utf-8")
+    return re.search(rf'^{key}:\s*"?([^"\n]*)"?', config, re.M).group(1).strip()
+
+
 def site_url():
     """The Seminar page's address, from url and baseurl in _config.yml."""
-    config = Path("_config.yml").read_text(encoding="utf-8")
-    value = lambda key: re.search(rf'^{key}:\s*"?([^"\n]*)"?', config, re.M).group(1).strip()
-    return value("url") + value("baseurl") + "/seminar.html"
+    return config_value("url") + config_value("baseurl") + "/seminar.html"
 
 
 def parse(text):
@@ -145,7 +149,7 @@ def previous_events(ics):
 def calendar(talks, page, now, previous):
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//tcsai.github.io//Seminar//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-             "X-WR-CALNAME:" + text("Seminar | Tilburg Computational Linguistics & Psycholinguistics"),
+             "X-WR-CALNAME:" + text("Seminar | " + config_value("title")),
              "X-WR-TIMEZONE:Europe/Amsterdam",
              # Ask calendar apps to check for changes every hour (Apple and
              # Outlook follow this; Google Calendar refreshes on its own schedule).

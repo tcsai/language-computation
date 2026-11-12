@@ -1,8 +1,8 @@
 # Notes for Claude
 
-Website of the Computational Linguistics & Psycholinguistics unit at Tilburg
-University, served at <https://tcsai.github.io/language-computation/> by GitHub
-Pages (Jekyll, deployed from `main`). `README.md` explains the files.
+Website of the Tilburg Language and Computation unit, served at
+<https://tcsai.github.io/language-computation/> by GitHub Pages (Jekyll,
+deployed from `main`). `README.md` explains the files.
 
 ## Rules
 

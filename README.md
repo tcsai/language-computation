@@ -1,8 +1,8 @@
-# Tilburg Computational Linguistics & Psycholinguistics — website
+# Tilburg Language and Computation — website
 
-Source for the website of the Computational Linguistics & Psycholinguistics
-unit at the Research Center for Cognitive Science and Artificial Intelligence,
-Tilburg University. GitHub Pages turns the Markdown files into the website on every
+Source for the website of the Tilburg Language and Computation unit at the
+Research Center for Cognitive Science and Artificial Intelligence, Tilburg
+University. GitHub Pages turns the Markdown files into the website on every
 push; there is no build step to run.
 
 ## Editing content
@@ -71,9 +71,9 @@ GitHub Pages is set to *Deploy from a branch*, branch `main`, folder
 
 If the repository is renamed, change `baseurl` in `_config.yml` to match.
 
-**Custom domain:** to use a domain like `clp.example.org`, add it under
-*Settings → Pages → Custom domain* and create the DNS `CNAME` record GitHub
-shows you. Then set `url` to the new domain and `baseurl` to `""` in
+**Custom domain:** to use a domain like `language-computation.example.org`, add
+it under *Settings → Pages → Custom domain* and create the DNS `CNAME` record
+GitHub shows you. Then set `url` to the new domain and `baseurl` to `""` in
 `_config.yml`.
 
 ## Previewing locally
