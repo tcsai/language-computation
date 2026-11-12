@@ -129,7 +129,7 @@ How to query them (all public, no login):
 - **Crossref:** `https://api.crossref.org/works?query.author=<name>&filter=from-pub-date:<YYYY-MM-DD>`.
 - **Semantic Scholar:** `https://api.semanticscholar.org/graph/v1/author/search?query=<name>`.
 - **Bluesky:** `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=<handle>&limit=50`.
-  Also check the unit's account, tilburg-clp.bsky.social, and the university's,
+  Also check the unit's account, tilburg-lang-comp.bsky.social, and the university's,
   tilburg-university.bsky.social.
 - **University news:** Univers, the university's news magazine, at
   <https://www.univers.nl/feed/> (RSS).

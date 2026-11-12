@@ -32,7 +32,7 @@
   Céline Angonin, Grzegorz Chrupała and Dan Stowell has been accepted as an
   oral presentation at BNAIC/BeNeLearn 2026.
 - **October 2026.** Gaofei Shen
-  [demonstrated speech technology](https://bsky.app/profile/tilburg-clp.bsky.social/post/3mx2d3b3prc2k)
+  [demonstrated speech technology](https://bsky.app/profile/tilburg-lang-comp.bsky.social/post/3mx2d3b3prc2k)
   to visitors of the
   [Weekend of Science](https://weekendvandewetenschap.nl/hotspots/tilburg-spoorzone/2026/)
   at MindLabs on 4 October.

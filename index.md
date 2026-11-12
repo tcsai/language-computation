@@ -18,4 +18,4 @@ Our research ranges from language science to language technology and broader app
 - Lepp et al. (2025). [Co-Creation for Sign Language Processing and Translation Technology](https://doi.org/10.3390/info16040290). *Information*.
 
 See all our [publications](publications.md), meet the [people](people.md), 
-read the latest [news](news.md), or follow us on [Bluesky](https://bsky.app/profile/tilburg-clp.bsky.social).
+read the latest [news](news.md), or follow us on [Bluesky](https://bsky.app/profile/tilburg-lang-comp.bsky.social).
