@@ -151,14 +151,28 @@ URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-f0b7be34@tcsai.github.io
-DTSTAMP:20261007T145756Z
-LAST-MODIFIED:20261007T145756Z
-SEQUENCE:1
+DTSTAMP:20261112T144350Z
+LAST-MODIFIED:20261112T144350Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Amsterdam:20261126T123000
 DTEND;TZID=Europe/Amsterdam:20261126T133000
-SUMMARY:Seminar: Thomas Lieber – Piecewise additive methods
+SUMMARY:Seminar: Thomas Lieber – The Pros of using PAMMs: From Reaction T
+ imes to Response Dynamics
 LOCATION:D 152 A\, Tilburg University
-DESCRIPTION:https://tcsai.github.io/language-computation/seminar.html
+DESCRIPTION:Reaction times are widely studied in psycholinguistics\, typica
+ lly using linear mixed-effects models (LMMs) or generalized additive mixed
+  models (GAMMs). However\, these approaches generally treat time as the de
+ pendent variable\, limiting insight into when predictor effects emerge.\n\
+ nPiece-wise additive mixed models (PAMMs) instead model the hazard rate\, 
+ allowing non-linear predictor effects to vary throughout the response wind
+ ow while accounting for random effects. Despite these advantages\, PAMMs r
+ emain underutilized in psycholinguistics.\n\nI evaluate PAMMs using the Ma
+ ssive Auditory Lexical Decision dataset\, comparing them with LMMs and GAM
+ Ms. I will demonstrate how PAMMs reveal temporal dynamics obscured by conv
+ entional approaches.\n\nMy end goal with this is to write a tutorial to pr
+ ovide practical guidance on data preparation\, model fitting\, evaluation\
+ , and interpretation to facilitate broader adoption of PAMMs.\n\nhttps://t
+ csai.github.io/language-computation/seminar.html
 URL:https://tcsai.github.io/language-computation/seminar.html
 END:VEVENT
 BEGIN:VEVENT
