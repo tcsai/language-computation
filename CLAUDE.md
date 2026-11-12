@@ -10,8 +10,7 @@ These apply in every session: when someone asks for a change, and in the
 monthly update. Limits that apply only to the monthly update are in its own
 section below.
 
-- Keep the site simple: plain Markdown pages, no new templates, data files or
-  visual gimmicks. Keep prose short and general.
+- Keep prose short and general.
 - The members of the unit are the people listed in `people.md`.
 - Libby Lepp is listed as "Libby" on People but publishes as Lisa Lepp. In
   author lists, use names as printed on the paper.
