@@ -6,15 +6,16 @@ Pages (Jekyll, deployed from `main`). `README.md` explains the files.
 
 ## Rules
 
+These apply in every session: when someone asks for a change, and in the
+monthly update. Limits that apply only to the monthly update are in its own
+section below.
+
 - Keep the site simple: plain Markdown pages, no new templates, data files or
   visual gimmicks. Keep prose short and general.
-- The members of the unit are the people listed in `people.md`. Never add or
-  remove people yourself; suggest changes instead.
+- The members of the unit are the people listed in `people.md`.
 - Libby Lepp is listed as "Libby" on People but publishes as Lisa Lepp. In
   author lists, use names as printed on the paper.
-- Seminar talks are kept by hand in `schedule.md`. The monthly update doesn't
-  edit it; it only reports talks that still have no title. Edit it when asked
-  to in a normal session.
+- Seminar talks are listed in `schedule.md`.
 - `seminar.ics` is generated from `schedule.md` by a GitHub Action. Don't edit it.
 
 ### Publications (`publications.md`)
@@ -35,8 +36,7 @@ Pages (Jekyll, deployed from `main`). `README.md` explains the files.
 - Include papers, book chapters, theses and preprints. Leave out abstracts,
   posters, talks, datasets and software.
 - The five selected papers on the home page (`index.md`) must have a member as
-  first author. Don't change them; suggest a swap when a strong new paper
-  appears.
+  first author.
 
 ### News (`news.md`)
 
@@ -80,7 +80,14 @@ review.
    anything needing a human decision, then sources that could not be reached. If
    there is nothing to change or report, don't open a pull request.
 
-Never push to `main`, and don't change the layout, styles or `_config.yml`.
+Limits for the monthly update:
+
+- Never push to `main`.
+- Don't change the layout, styles or `_config.yml`.
+- Don't add or remove people; suggest changes in the pull request.
+- Don't edit `schedule.md`; only report talks that still have no title.
+- Don't change the five selected papers on the home page; suggest a swap when a
+  strong new paper appears.
 
 ### Sources
 
