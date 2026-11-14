@@ -59,6 +59,7 @@ Other settings:
 - Site title, description and menu: `_config.yml`
 - Header, menu and footer: `_layouts/default.html`
 - Colours and fonts: `assets/css/style.css`
+- LinkedIn cover image (2256 × 382): `assets/img/linkedin-banner.png`
 
 ## Hosting
 
