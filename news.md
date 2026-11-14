@@ -3,6 +3,10 @@
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
+- **November 2026.** [In-Context Learning in Speech Language Models: Analyzing
+  the Role of Acoustic Features, Linguistic Structure, and Induction
+  Heads](https://arxiv.org/abs/2604.06356) by Charlotte Pouw, Hosein Mohebbi,
+  Afra Alishahi and Willem Zuidema has been accepted to Findings of EACL 2027.
 - **October 2026.** Hosein Mohebbi is one of the organisers of
   [BlackboxNLP 2026](https://blackboxnlp.github.io/2026/), the ninth workshop
   on analysing and interpreting neural networks for NLP, held at EMNLP 2026 in
