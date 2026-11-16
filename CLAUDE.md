@@ -106,7 +106,7 @@ Limits for the monthly update:
 | Noortje Venhuizen | | [noortje-venhuizen](https://research.tilburguniversity.edu/en/persons/noortje-venhuizen) | 0000-0002-0311-8202 | [noortje-venhuizen](https://aclanthology.org/people/noortje-venhuizen/) | |
 | Céline Angonin | | [céline-angonin](https://research.tilburguniversity.edu/en/persons/c%C3%A9line-angonin) | 0000-0002-3073-4086 | | cangonin.bsky.social |
 | Rastislav Hronský | | [ratislav-hronský](https://research.tilburguniversity.edu/en/persons/ratislav-hronsk%C3%BD) | | [rastislav-hronsky](https://aclanthology.org/people/rastislav-hronsky/unverified/) | |
-| Sasha Kenjeeva (Alexandra Kenjeeva) | | [alexandra-kenjeeva](https://research.tilburguniversity.edu/en/persons/alexandra-kenjeeva) | 0000-0002-9358-7722 | | |
+| Sasha Kenjeeva (Alexandra Kenjeeva) | [sashakenjeeva.github.io](https://sashakenjeeva.github.io/) | [alexandra-kenjeeva](https://research.tilburguniversity.edu/en/persons/alexandra-kenjeeva) | 0000-0002-9358-7722 | | sashakenjeeva.bsky.social |
 | Libby Lepp (Lisa Lepp) | | [lisa-lepp](https://research.tilburguniversity.edu/en/persons/lisa-lepp) | 0009-0001-4737-7580 | [lisa-lepp](https://aclanthology.org/people/lisa-lepp/unverified/) | lisalepp.bsky.social |
 | Thomas Lieber | | [thomas-lieber](https://research.tilburguniversity.edu/en/persons/thomas-lieber) | | | |
 | Rosie Mai | | [rosie-mai](https://research.tilburguniversity.edu/en/persons/rosie-mai) | 0000-0001-8275-6220 | | |
