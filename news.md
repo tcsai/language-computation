@@ -1,5 +1,8 @@
 # News
 
+- **December 2026.** Grzegorz Chrupała gives a keynote at the
+  [XAI-NL meet-up](https://sites.google.com/view/xai-nl/schedule) on
+  explainable AI, 3 December in Amsterdam.
 - **December 2026.** Bruno Nicenboim and Giovanni Cassani are co-organising the
   [Computational Psycholinguistics Meeting 2026](https://cpl2026.sites.uu.nl/),
   2–4 December at Utrecht University.
